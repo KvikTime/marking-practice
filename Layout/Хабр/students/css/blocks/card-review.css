@@ -1,0 +1,85 @@
+.card-review {
+  padding: 38px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  outline: 2px solid #26aa9a;
+  border-radius: 20px;
+}
+
+.card-review__user {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.card-review__user-photo {
+  border-radius: 50%;
+  box-shadow: 2px 2px 20px 0 rgba(38, 170, 154, 0.4);
+}
+
+.card-review__user-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-review__user-name {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 137%;
+  color: #fff;
+}
+
+.card-review__publication-date {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.card-review__quote{
+  margin: 0 0 40px 0;
+}
+
+.card-review__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 147%;
+  color: #fff;
+}
+
+.card-review__subtitle {
+  margin: auto 0 15px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-review__info {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 123%;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.card-review__view-product {
+  display: block;
+  padding: 14px;
+  text-align: center;
+  width: 300px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #1f2023;
+  background: #26aa9a;
+  border-radius: 8px;
+}
+
+.card-review--color-link .card-review__view-product{
+  color: #fff;
+  border: 2px solid #26aa9a;
+  background-color: initial;
+}

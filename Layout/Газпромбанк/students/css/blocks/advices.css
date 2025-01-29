@@ -1,0 +1,8 @@
+.advices {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 32px;
+}
+.advices__item {
+    width: calc(100% / 4 - (96px / 4));
+}

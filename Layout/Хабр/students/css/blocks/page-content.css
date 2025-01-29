@@ -1,0 +1,25 @@
+.page-content {
+  padding: 40px 0 120px;
+}
+
+.page-content__title {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 500;
+  margin: 0 0 59px 0;
+  text-align: center;
+}
+
+.page-content__reviews {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.page-content__item {
+  width: calc((100% / 3) - 20px);
+  min-height: 480px;
+}
+

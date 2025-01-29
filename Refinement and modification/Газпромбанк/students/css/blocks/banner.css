@@ -1,0 +1,137 @@
+.banner {
+  padding: 32px 332px 32px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 300px;
+  height: 100%;
+  border-radius: 12px;
+  gap: 30px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 32px) 32px;
+}
+
+.banner__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.banner__request {
+  display: block;
+  padding: 4px;
+  margin-bottom: 12px;
+  width: 66px;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 140%;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(30, 34, 46, 0.5);
+  border: 1px solid rgba(30, 34, 46, 0.5);
+  border-radius: 4px;
+}
+
+.banner__subtitle {
+  margin: 0 0 12px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  color: #1e222e;
+}
+
+.banner__more {
+  display: block;
+  padding: 10px;
+  width: 140px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 8px;
+  background: #476bf0;
+}
+
+.banner__img {
+  align-self: flex-start;
+  object-fit: contain;
+}
+
+.banner--lilac {
+  background-image: url("../../images/banner/credit.png");
+  background-color: #e7efff;
+}
+
+.banner--blue {
+  background-image: url("../../images/banner/card.png");
+  background-color: #476bf0;
+}
+
+.banner--azure {
+  background-image: url("../../images/banner/mortgage.png");
+  background-color: #cff6e7;
+}
+
+.banner--light-blue {
+  background-image: url("../../images/banner/privileges.png");
+  background-color: #c4e7ff;
+}
+
+
+.banner--white .banner__request {
+  color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+
+.banner--white .banner__subtitle,
+.banner--white .banner__condition {
+  color: #fff;
+}
+
+.banner--white .banner__more {
+  color: #476bf0;
+  background: #fff;
+}
+
+/* СТИЛИЗАЦИЯ ВЕРТИКАЛЬНЫХ БЛОКОВ */
+.banner--vertical{
+  padding: 32px 20px 20px;
+  align-items: center;
+  min-height: 400px;
+  max-width: 290px;
+  background-position: center calc(100% - 85px);
+  background-size: calc(100% - 76px);
+}
+
+.banner--vertical .banner__request {
+  margin-bottom: 8px;
+}
+
+.banner--vertical .banner__descr{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner--vertical .banner__subtitle{
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+}
+
+.banner--vertical .banner__condition{
+  margin-bottom: 150px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  text-align: center;
+}
+
+
+

@@ -1,0 +1,46 @@
+.about-app {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.about-app__title {
+    margin: 0 0 16px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 119%;
+    color: #1e222e;
+}
+
+.about-app__text {
+    margin: 0 0 32px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 147%;
+    color: #1e222e;
+}
+
+.about-app__links {
+    display: flex;
+    gap: 12px;
+}
+
+.about-app__link {
+    display: block;
+    padding: 14px;
+    width: 170px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    text-align: center;
+    text-decoration: none;
+    color: #1e222e;
+    background: #edeeef;
+    border-radius: 8px;
+}
+
+.about-app__link--secondary {
+    background: #1e222e;
+    
+    color: #fff;
+}

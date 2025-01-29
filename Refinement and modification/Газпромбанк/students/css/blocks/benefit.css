@@ -1,0 +1,13 @@
+.benefit {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-bottom: 50px;
+}
+.benefit__item {
+    width: calc(100% / 2 - (32px / 2));
+}
+
+.benefit--row .benefit__item {
+    width: calc(100% / 4 - (96px / 4));
+}

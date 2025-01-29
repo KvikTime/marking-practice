@@ -1,0 +1,78 @@
+.card {
+    padding: 20px 20px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 480px;
+    background: #b8c8ff;
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card__hint-wrap {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.card__hint-text {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 123%;
+    color: #fff;
+}
+
+.card__title {
+    margin: 0 0 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #fff;
+}
+
+.card__more {
+    display: block;
+    padding: 14px;
+    width: 246px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: #476bf0;
+    border-radius: 8px;
+}
+
+.card--percent {
+    background-image: url(../../images/cards/card-percent.jpg);
+}
+
+.card--rating {
+    background-image: url(../../images/cards/card-rating.jpg);
+}
+
+.card--gold {
+    background-image: url(../../images/cards/card-gold.jpg);
+}
+
+.card--tax {
+    background-image: url(../../images/cards/card-tax.jpg);
+}
+
+.card--transfer {
+    background-image: url(../../images/cards/card-transfer.jpg);
+}
+
+.card--work {
+    background-image: url(../../images/cards/card-work.jpg);
+}
+
+.card--hidden {
+    background-image: url(../../images/cards/card-hidden.jpg);
+}
+
+.card--load {
+    background-image: url(../../images/cards/card-load.jpg);
+}
