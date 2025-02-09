@@ -1,0 +1,29 @@
+.season__title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: -0.02em;
+    color: #242424;
+}
+
+.season__list {
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 380px;
+    grid-template-rows: repeat( minmax(160px, 1fr));
+    gap: 20px;
+}
+
+.season__item{
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.season__item--height {
+    grid-row: span 2;
+}
+
+.season__item--long {
+    grid-column: span 2;
+}

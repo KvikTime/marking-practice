@@ -1,0 +1,74 @@
+.season-card {
+    padding: 20px 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.season-card__img {
+    margin-bottom: 20px;
+    border: 4px solid #9e5fc4;
+    border-radius: 200px;
+    width: 150px;
+    height: 150px;
+}
+
+.season-card__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 114%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #9e5fc4;
+}
+
+.season-card__country {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #242424;
+}
+
+.season-card__link {
+    display: block;
+    text-align: center;
+    padding: 14px;
+    width: 154px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    color: #fff;
+    border-radius: 60px;
+    background: #9e5fc4;
+}
+
+.season-card__descr {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    color: #242424;
+
+}
+
+.season-card--azure{
+    background: #e0e5fa;
+}
+
+.season-card--turquoise{
+    background: #d2e8e5;
+}
+
+.season-card--light-green{
+    background: #e0effa;
+}
+
+.season-card__under{
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}

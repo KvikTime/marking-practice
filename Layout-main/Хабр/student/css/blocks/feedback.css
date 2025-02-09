@@ -1,0 +1,53 @@
+.feedback {
+    padding: 30px 30px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background: linear-gradient(44deg, #5839b0 0%, #4162b8 100%);
+    border-radius: 24px;
+}
+
+.feedback__descr{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feedback__quote {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.feedback__quote-text {
+    max-width: 520px;
+}
+
+.feedback__data{
+    display: flex;
+    gap: 15px;
+}
+
+.feedback__name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.feedback__more {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.feedback__user-photo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}

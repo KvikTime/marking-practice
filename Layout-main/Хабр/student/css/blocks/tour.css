@@ -1,9 +1,12 @@
+.tour{
+    margin-bottom: 60px;
+}
+
 .tour__list {
     display: grid;
     grid-template-columns: 1fr 320px 1fr;
     grid-template-rows: repeat (3, 1fr);
     gap: 20px;
-   
 }
 
 .tour__item--big{

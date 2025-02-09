@@ -100,7 +100,7 @@
     </div>
     <!-- Карточки популярных туров -->
 
-    <div class="tour">
+    <section class="tour">
       <div class="container">
         <ul class="tour__list">
           <li class="tour__item tour__item--big">
@@ -109,7 +109,7 @@
                 alt="Фотография тура Дубаи">
               <div class="card-tour__content">
                 <div class="card-tour__content-top">
-                  <h2 class="card-tour__title">Дубай,<span class="card-tour__country">ОАЭ</span></h2>
+                  <h2 class="card-tour__title">Дубай,<span class="card-tour__country"> ОАЭ</span></h2>
                   <div class="card-tour__label-info">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <g clip-path="url(#clip0_1796_4373)">
@@ -118,7 +118,7 @@
                           fill="#242424" />
                       </g>
                       <defs>
-                        <clipPath id="clip0_1796_4373">
+                        <clipPath>
                           <rect width="16" height="16" fill="white" />
                         </clipPath>
                       </defs>
@@ -191,7 +191,7 @@
                           fill="#242424" />
                       </g>
                       <defs>
-                        <clipPath id="clip0_1796_4373">
+                        <clipPath>
                           <rect width="16" height="16" fill="white" />
                         </clipPath>
                       </defs>
@@ -255,7 +255,7 @@
                           fill="#242424" />
                       </g>
                       <defs>
-                        <clipPath id="clip0_1796_4373">
+                        <clipPath>
                           <rect width="16" height="16" fill="white" />
                         </clipPath>
                       </defs>
@@ -310,7 +310,7 @@
                 alt="Фотография тура Стамбул">
               <div class="card-tour__content">
                 <div class="card-tour__content-top">
-                  <h2 class="card-tour__title">Стамбул,<span class="card-tour__country">Турция</span></h2>
+                  <h2 class="card-tour__title">Стамбул,<span class="card-tour__country"> Турция</span></h2>
                   <div class="card-tour__label-info">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <g clip-path="url(#clip0_1796_4373)">
@@ -319,7 +319,7 @@
                           fill="#242424" />
                       </g>
                       <defs>
-                        <clipPath id="clip0_1796_4373">
+                        <clipPath>
                           <rect width="16" height="16" fill="white" />
                         </clipPath>
                       </defs>
@@ -383,7 +383,7 @@
                 alt="Фотография тура Хургада">
               <div class="card-tour__content">
                 <div class="card-tour__content-top">
-                  <h2 class="card-tour__title">Хургада,<span class="card-tour__country">Египет</span></h2>
+                  <h2 class="card-tour__title">Хургада,<span class="card-tour__country"> Египет</span></h2>
                   <div class="card-tour__label-info">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <g clip-path="url(#clip0_1796_4373)">
@@ -392,7 +392,7 @@
                           fill="#242424" />
                       </g>
                       <defs>
-                        <clipPath id="clip0_1796_4373">
+                        <clipPath>
                           <rect width="16" height="16" fill="white" />
                         </clipPath>
                       </defs>
@@ -464,7 +464,7 @@
                           fill="#242424" />
                       </g>
                       <defs>
-                        <clipPath id="clip0_1796_4373">
+                        <clipPath>
                           <rect width="16" height="16" fill="white" />
                         </clipPath>
                       </defs>
@@ -515,8 +515,73 @@
 
         </ul>
       </div>
-    </div>
+    </section>
     <!-- Блок "Самый сезон" -->
+    <section class="season">
+      <div class="container">
+        <h2 class="season__title">Самый сезон</h2>
+        <ul class="season__list">
+          <li class="season__item">
+            <div class="season-card season-card--azure">
+              <img class="season-card__img" src="images/season/Season-danang.jpg" alt="Фото сезонного курорта Вьетнам"
+                width="150" height="150">
+              <h3 class="season-card__title">Дананг</h3>
+              <span class="season-card__country">Вьетнам</span>
+              <a href="#" class="season-card__link" aria-label="Кнопка узнать подробнее">Подробнее</a>
+            </div>
+          </li>
+          <li class="season__item">
+            <div class="season-card season-card--turquoise">
+              <img class="season-card__img" src="images/season/Season-varadero.jpg"
+                alt="Фото сезонного курорта Варадеро" width="150" height="150">
+              <h3 class="season-card__title">Варадеро</h3>
+              <span class="season-card__country">Куба</span>
+              <a href="#" class="season-card__link" aria-label="Кнопка узнать подробнее">Подробнее</a>
+            </div>
+          </li>
+          <li class="season__item season__item--height">
+            <div class="season-card season-card--light-green">
+              <img class="season-card__img" src="images/season/Season-bali.jpg" alt="Фото сезонного курорта Бали"
+                width="150" height="150">
+              <h3 class="season-card__title">Бали</h3>
+              <span class="season-card__country">Индонезия</span>
+              <p class="season-card__descr">
+                Песок и&nbsp;тропические джунгли, йога и&nbsp;медитации, серфинг или ночная жизнь. Бали для каждого
+                свой. Помимо многочисленных <u class="season-card__under">храмов</u>, остров изобилует еще множеством природных и&nbsp;культурных
+                достопримечательностей: <u class="season-card__under">дворцами,</u> <u class="season-card__under">музеями,</u> <u class="season-card__under">парками</u> и&nbsp;<u class="season-card__under">зоопарками</u>.
+              </p>
+              <a href="#" class="season-card__link" aria-label="Кнопка узнать подробнее">Подробнее</a>
+            </div>
+          </li>
+          <li class="season__item season__item--long">
+            <aside class="feedback">
+              <div class="feedback__descr">
+                <blockquote class="feedback__quote">
+                  <p class="feedback__quote-text">Снова обратились к&nbsp;ребятам! В&nbsp;прошлый раз ездили компанией
+                    друзей на&nbsp;Шри-Ланку. На&nbsp;этот раз доверили им&nbsp;наше свадебное путешествие&nbsp;&mdash;
+                    и&nbsp;снова в&nbsp;точку!</p>
+                </blockquote>
+                <div class="feedback__data">
+                  <span class="feedback__name">Екатерина</span>
+                  <a href="#" class="feedback__more" aria-label="Посмотреть отзыв полностью">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M10.5263 0.629971L1.00125 3.58122C0.824809 3.62805 0.668205 3.73061 0.554746 3.87362C0.441287 4.01663 0.377038 4.19245 0.37156 4.37492C0.366081 4.55739 0.419667 4.73675 0.524342 4.88631C0.629017 5.03587 0.779186 5.14764 0.952501 5.20497L5.2725 6.65247C5.28825 6.65846 5.30265 6.6675 5.31488 6.67909C5.32711 6.69068 5.33692 6.70457 5.34375 6.71997L6.93375 10.845C6.99809 11.0107 7.11165 11.1527 7.25915 11.2519C7.40665 11.3512 7.58101 11.4028 7.75875 11.4H7.78125C7.96198 11.3994 8.13793 11.3418 8.28404 11.2354C8.43015 11.1291 8.53897 10.9793 8.595 10.8075L11.625 1.70997C11.6725 1.56431 11.6795 1.40847 11.6451 1.25916C11.6107 1.10986 11.5364 0.97272 11.43 0.862471C11.3162 0.743008 11.1712 0.657882 11.0114 0.616779C10.8517 0.575676 10.6836 0.580247 10.5263 0.629971Z"
+                        fill="#A9A0D9" />
+                    </svg>
+                    <span class="feedback__more-text">Весь отзыв на&nbsp;otzovvi.ru</span>
+                  </a>
+                </div>
+              </div>
+              <div class="feedback__user-photo">
+                <img class="feedback__img" src="images/season/feedback.jpg" alt="Фото пользователя" width="100"
+                  height="100">
+              </div>
+            </aside>
+          </li>
+        </ul>
+      </div>
+    </section>
   </main>
 
   <footer class="footer">

@@ -6,6 +6,7 @@
 
 /* Blocks */
 /* ------------------------------------ */
+@import "blocks/container.css";
 @import "blocks/header.css";
 @import "blocks/footer.css";
 @import "blocks/btn.css";
@@ -13,3 +14,6 @@
 @import "blocks/breadcrumbs.css";
 @import "blocks/tour.css";
 @import "blocks/card-tour.css";
+@import "blocks/season.css";
+@import "blocks/season-card.css";
+@import "blocks/feedback.css";

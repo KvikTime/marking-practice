@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   min-height: 528px;
+  height: 100%;
   border-radius: 24px;
   background-color: #ffffff;
   overflow: hidden;
@@ -15,7 +16,8 @@
 .card-tour__content {
   display: flex;
   flex-direction: column;
-  padding: 18px 30px 30px 30px;
+  height: 100%;
+  padding: 20px 30px 30px 30px;
 }
 
 .card-tour__content-top {
@@ -58,7 +60,7 @@
 .card-tour__text {
   font-size: 16px;
   line-height: 20px;
-  margin: 0 0 16px;
+  margin: 0 0 15px;
 }
 
 .card-tour__content-bottom {
@@ -95,7 +97,8 @@
 .card-tour__btns-wrap {
   display: flex;
   align-items: center;
-  gap: 13px;
+  justify-content: space-between;
+  gap: 17px;
 }
 
 .tour__item {
@@ -111,6 +114,8 @@
 .card-tour__title {
 }
 .card-tour__country {
+  font-weight: 400;
+color: #242424;
 }
 .card-tour__label-info {
 }
