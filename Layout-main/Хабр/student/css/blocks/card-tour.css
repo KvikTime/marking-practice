@@ -1,0 +1,158 @@
+.card-tour {
+  display: flex;
+  flex-direction: column;
+  min-height: 528px;
+  border-radius: 24px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.card-tour__img {
+  height: 240px;
+  width: 100%;
+}
+
+.card-tour__content {
+  display: flex;
+  flex-direction: column;
+  padding: 18px 30px 30px 30px;
+}
+
+.card-tour__content-top {
+  display: flex;
+  gap: 9px;
+  margin: 0 0 10px;
+}
+
+.card-tour__title {
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  margin: 0;
+  color: #9e5fc4;
+  font-weight: 700;
+}
+
+.card-tour__label-info  {
+  border-radius: 60px;
+  background-color: #f9efcd;
+  display: flex;
+  padding: 6px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  margin: 0 0 0 auto;
+}
+
+.card-tour__label-info svg {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.card-tour__label-text {
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.card-tour__text {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 16px;
+}
+
+.card-tour__content-bottom {
+  margin: auto 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card-tour__price-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+}
+
+.card-tour__price {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.card-tour__price svg {
+  width: 22px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.card-tour__price-text {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.card-tour__btns-wrap {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.tour__item {
+}
+.card-tour {
+}
+.card-tour__img {
+}
+.card-tour__content {
+}
+.card-tour__content-top {
+}
+.card-tour__title {
+}
+.card-tour__country {
+}
+.card-tour__label-info {
+}
+.card-tour__label-text {
+}
+.card-tour__label-info--lilac {
+  margin: 0;
+  background-color: #F2E5FA;
+  font-size: 13px;
+  line-height: 16px;
+}
+.card-tour__label-free {
+}
+.card-tour__text {
+}
+.card-tour__inner {
+}
+.card-tour__price-wrapper {
+}
+.card-tour__price {
+}
+.card-tour__price-text {
+}
+.card-tour__btns-wrap {
+}
+.btn {
+}
+.card-tour__btn-favorites {
+}
+.btn--icon {
+}
+
+.card-tour--align {
+
+}
+
+.card-tour--align .card-tour__inner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-tour--align .card-tour__content-bottom {
+  flex-direction: row;
+  justify-content: space-between;
+}
