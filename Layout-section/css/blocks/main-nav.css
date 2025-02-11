@@ -1,0 +1,10 @@
+.main-nav {
+    padding: 15px 0;
+}
+.main-nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+.main-nav__link {
+    color: #fff;
+}

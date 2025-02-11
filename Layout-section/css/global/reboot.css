@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -17,7 +19,17 @@ img {
   height: auto;
 }
 
+button{
+  background: initial;
+  border: none;
+  cursor: pointer;
+}
+
 a {
   color: #242424;
   text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
 }
