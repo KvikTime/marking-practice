@@ -101,55 +101,16 @@
   gap: 17px;
 }
 
-.tour__item {
-}
-.card-tour {
-}
-.card-tour__img {
-}
-.card-tour__content {
-}
-.card-tour__content-top {
-}
-.card-tour__title {
-}
 .card-tour__country {
   font-weight: 400;
 color: #242424;
 }
-.card-tour__label-info {
-}
-.card-tour__label-text {
-}
+
 .card-tour__label-info--lilac {
   margin: 0;
   background-color: #F2E5FA;
   font-size: 13px;
   line-height: 16px;
-}
-.card-tour__label-free {
-}
-.card-tour__text {
-}
-.card-tour__inner {
-}
-.card-tour__price-wrapper {
-}
-.card-tour__price {
-}
-.card-tour__price-text {
-}
-.card-tour__btns-wrap {
-}
-.btn {
-}
-.card-tour__btn-favorites {
-}
-.btn--icon {
-}
-
-.card-tour--align {
-
 }
 
 .card-tour--align .card-tour__inner{
