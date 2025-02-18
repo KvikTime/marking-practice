@@ -1,0 +1,42 @@
+.filter {
+    padding: 25px 25px 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    gap: 25px;
+    background: #fff;
+    border-radius: 16px;
+
+}
+
+.filter__list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.filter__point {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: #242424;
+}
+
+.filter__point--all .filter__country {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    color: #9e5fc4;
+}
+
+
+.filter__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter__point--all .filter__link {
+    padding-left: 5px;
+    gap: 15px;
+}

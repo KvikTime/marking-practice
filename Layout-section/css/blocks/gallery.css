@@ -1,47 +1,61 @@
-.gallery {
-}
 .gallery__wraper {
-    display: grid;
-    grid-template-columns: 1fr 215px;
+    margin-bottom: 80px;
+    display: flex;
     gap: 20px;
 }
+
+.gallery__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 .gallery__list {
     display: grid;
     grid-template-columns: 365px 115px 105px 240px;
-    grid-template-rows: 320px 260px 130px 130px 340px;
-    row-gap: 40px;
-    column-gap: 20px;
+    grid-template-rows: 320px 260px 150px 150px 340px;
+    gap: 20px;
 }
+
 .gallery__item {
     grid-column: span 1;
     grid-row: span 1;
 }
-.card {
-}
+
 .card__figure {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
+
 .card_img {
-
+    border-radius: 8px;
 }
+
 .card__text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 115%;
+    text-align: right;
+    color: rgba(36, 36, 36, 0.5);
 }
 
-.gallery__item--two-columns{
+.gallery__item--two-columns {
     grid-column: span 2;
 }
 
-.gallery__item--three-columns{
+.gallery__item--three-columns {
     grid-column: span 3;
 }
 
-.gallery__item--four-columns{
+.gallery__item--four-columns {
     grid-column: span 4;
 }
 
-.gallery__item--two-rows{
+.gallery__item--two-rows {
     grid-row: span 2;
 }
 
-.gallery__item--three-rows{
+.gallery__item--three-rows {
     grid-row: span 3;
 }
