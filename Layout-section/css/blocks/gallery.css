@@ -22,24 +22,6 @@
     grid-row: span 1;
 }
 
-.card__figure {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.card_img {
-    border-radius: 8px;
-}
-
-.card__text {
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 115%;
-    text-align: right;
-    color: rgba(36, 36, 36, 0.5);
-}
-
 .gallery__item--two-columns {
     grid-column: span 2;
 }

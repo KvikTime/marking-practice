@@ -1,0 +1,17 @@
+.card__figure {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card__img {
+    border-radius: 8px;
+}
+
+.card__text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 115%;
+    text-align: right;
+    color: rgba(36, 36, 36, 0.5);
+}
