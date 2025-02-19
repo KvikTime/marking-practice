@@ -22,7 +22,7 @@
     color: #242424;
 }
 
-.filter__point--all .filter__country {
+.filter__point--active .filter__country {
     font-weight: 700;
     font-size: 16px;
     line-height: 125%;
@@ -36,7 +36,7 @@
     gap: 10px;
 }
 
-.filter__point--all .filter__link {
+.filter__point--active .filter__link {
     padding-left: 5px;
     gap: 15px;
 }

@@ -13,7 +13,6 @@
 .gallery__list {
     display: grid;
     grid-template-columns: 365px 115px 105px 240px;
-    grid-template-rows: 320px 260px 150px 150px 340px;
     gap: 20px;
 }
 
