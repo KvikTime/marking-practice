@@ -19,6 +19,12 @@ img {
   height: auto;
 }
 
+button{
+  background: initial;
+  border: none;
+  cursor: pointer;
+}
+
 a {
   color: #242424;
   text-decoration: none;

@@ -1,0 +1,14 @@
+.pay-nav {
+    padding: 4px;
+    display: flex;
+    gap: 10px;
+}
+
+.pay-nav__list {
+    display: flex;
+    align-items: center;
+}
+
+.pay-nav__link {
+    font-size: 0;
+}

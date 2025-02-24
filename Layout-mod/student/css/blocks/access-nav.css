@@ -1,0 +1,9 @@
+.access-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.access-nav__link {
+    font-size: 0;
+}

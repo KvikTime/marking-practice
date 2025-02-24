@@ -18,3 +18,24 @@
   border: none;
   color: #ffffff;
 }
+
+
+.btn-lang {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-lang__icon{
+  padding: 8px 15px;
+  background: #333438;
+  border-radius: 4px;
+  font-size: 0;
+}
+
+.btn-lang__text {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 133%;
+  color: rgba(255, 255, 255, 0.5);
+}

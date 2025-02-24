@@ -12,4 +12,9 @@
 @import "blocks/footer.css";
 @import "blocks/btn.css";
 @import "blocks/social.css";
+@import "blocks/safety.css";
 @import "blocks/contacts.css";
+@import "blocks/info-nav.css";
+@import "blocks/access-nav.css";
+@import "blocks/pay-nav.css";
+
