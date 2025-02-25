@@ -1,0 +1,34 @@
+.descr {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 125%;
+    color: #242424;
+    gap: 20px;
+}
+
+.descr__title {
+    font-size: 28px;
+    line-height: 114%;
+    color: #242424;
+}
+
+.descr__wrap-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.descr__subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 133%;
+}
+
+.descr__list {
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: disc;
+}

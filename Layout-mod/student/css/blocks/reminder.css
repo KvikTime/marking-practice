@@ -1,0 +1,78 @@
+.reminder {
+    padding: 20px;
+    grid-column: span 2;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+.reminder__wrap-link {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.reminder__link {
+    padding: 23px 24px;
+    display: flex;
+    gap: 14px;
+    width: 100%;
+    border-radius: 20px;
+    background: #f6eefb;
+    align-items: center;
+}
+
+.reminder__link svg {
+    width: 36px;
+}
+
+.reminder__text {
+    display: flex;
+    max-width: 440px;
+    gap: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.reminder__title {
+    font-size: 16px;
+    line-height: 125%;
+    color: #242424;
+}
+
+.reminder__subtitle {
+    font-size: 13px;
+    line-height: 123%;
+    color: rgba(36, 36, 36, 0.5);
+}
+
+.reminder__btn {
+    margin-bottom: 5px;
+    gap: 12px;
+}
+
+.reminder__btn{
+    padding: 16px;
+}
+
+.reminder__phone {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #fff;
+}
+
+.reminder__phone-title {
+    display: block;
+    font-size: 16px;
+    line-height: 125%;
+    color: #242424;
+}
+
+.reminder__time {
+    display: block;
+    font-size: 13px;
+    line-height: 123%;
+    color: rgba(36, 36, 36, 0.5);
+}

@@ -11,6 +11,10 @@
   margin: 0 0 30px;
 }
 
+.contacts__title--bottom {
+  margin: 0 0 10px;
+}
+
 .contacts__wrap {
   display: grid;
   grid-template-columns: 500px 1fr;
@@ -37,7 +41,7 @@
 
 .contacts__info-title {
   color: rgba(36, 36, 36, 0.50);
-  font-size: 15px;
+  font-size: 13px;
   line-height: 19px;
   letter-spacing: 0.02em;
   text-transform: uppercase;

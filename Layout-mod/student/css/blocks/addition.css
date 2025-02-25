@@ -1,0 +1,28 @@
+.addition {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.addition__image {
+    border-radius: 20px;
+}
+
+.addition__list {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 16px;
+    line-height: 125%;
+    color: #242424;
+    border: 1px solid #e1e1e4;
+    border-radius: 20px;
+}
+
+.addition__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 133%;
+    color: #242424;
+}

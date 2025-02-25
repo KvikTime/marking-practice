@@ -1,8 +1,6 @@
-.safety{
-    
-}
-
 .safety__content{
     display: grid;
     grid-template-columns: 1fr 290px;
+    column-gap: 180px;
+    row-gap: 60px;
 }
