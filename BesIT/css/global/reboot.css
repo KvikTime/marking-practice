@@ -7,8 +7,16 @@
 body {
   margin: 0;
   padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   font-family: "Play", "Arial", sans-serif;
   font-weight: 400;
+  background: linear-gradient(135deg, #181a1d 0%, #1f153c 100%);
+}
+
+main {
+  flex-grow: 1;
 }
 
 img {
@@ -25,4 +33,10 @@ a {
 
 textarea {
   resize: none;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }

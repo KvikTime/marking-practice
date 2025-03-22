@@ -1,0 +1,117 @@
+.footer {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer__wrapper {
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__info {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+
+.footer__logo {
+    display: flex;
+
+    font-family: "Press Start 2P", "Arial", sans-serif;
+    font-size: 24px;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+.footer__green-part {
+    font-size: 24px;
+    line-height: 100%;
+    color: #87f29a;
+}
+
+.footer__white-part {
+    font-size: 24px;
+    line-height: 100%;
+    color: #fff;
+}
+
+.footer__copyright {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+}
+
+.footer__icon-copyrite {
+    display: flex;
+    align-items: center;
+}
+
+.footer__notice {
+    max-width: 128px;
+    font-size: 12px;
+    line-height: 133%;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer__connect-wrap {
+    display: flex;
+    gap: 32px;
+}
+
+.footer__slogan {
+    display: flex;
+    align-items: center;
+    max-width: 225px;
+    font-size: 12px;
+    line-height: 133%;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer__form {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer__input-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.footer__input-email {
+    padding: 12px 16px 12px 48px;
+    min-width: 280px;
+    font-size: 18px;
+    line-height: 133%;
+    color: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+    border-radius: 8px;
+}
+
+.footer__input-email::placeholder {
+    font-size: 18px;
+    line-height: 133%;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.footer__email-icon {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.footer__btn-subscribe {
+    padding: 12px 33px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    color: #000;
+    background: #87f29a;
+    border-radius: 8px;
+}

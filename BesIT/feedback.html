@@ -13,36 +13,37 @@
 <body>
   <main>
     <!-- Обратная связь -->
+
   </main>
   <!-- Подвал сайта -->
-  <footer>
+  <footer class="footer">
     <div class="container">
       <div class="footer__wrapper"> <!-- Обертка футера -->
 
         <div class="footer__info"> <!-- Логотип и подпись -->
-          <a href="#" class="footer__logo">
-            <span class="footer__green-part"></span>
-            <span class="footer__white-part"></span>
+          <a class="footer__logo" href="#" >
+            <span class="footer__green-part">Бес</span>
+            <span class="footer__white-part">It</span>
           </a>
 
           <div class="footer__copyright">
-            <svg xmlns="http://www.w3.org/2000/svg">
-
-            </svg>            
-            <span class="footer__notice"></span>
+              <svg class="footer__icon-copyrite" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                <use xlink:href="images\sprite.svg#icon-copyrite"></use>
+              </svg>                          
+            <span class="footer__notice">Все права защищены и&nbsp;принадлежат народу</span>
           </div>
         </div>
 
         <div class="footer__connect-wrap">
-          <span class="footer__slogan"></span>
-          <form class="footer__form" action="#"  method="POST">
-            <div class="">
-              <input class="footer__input-email" type="email">
-              <svg class="footer__email-icon" width="19" height="16" viewBox="0 0 19 16" >
-                <use href="iamges/sprite.svg#icon-email"></use>
+          <span class="footer__slogan">Читай подборку по&nbsp;дороге на&nbsp;работу или за&nbsp;чашкой кофе</span>
+          <form class="footer__form" action="#" method="POST">
+            <div class="footer__input-wrap">
+              <input class="footer__input-email" type="email" placeholder="Электронная почта">
+              <svg class="footer__email-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="16">
+                <use xlink:href="images\sprite.svg#icon-email"></use>
               </svg>
             </div>
-            <button class="footer__subscribe"></button>
+            <button class="footer__btn-subscribe">Подписаться</button>
           </form>
         </div>
 
