@@ -1,0 +1,95 @@
+.message {
+    height: 100%;
+}
+.message__wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.message__comment-wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.message__comment {
+    position: absolute;
+    padding: 32px 40px;
+    max-width: 334px;
+    border-radius: 40px;
+    z-index: 5;
+}
+
+
+
+.message__comment--blue {
+    top: 83px;
+    left: 35%;
+    background: #243961;
+}
+
+.message__comment--blue + .message__smile {
+    left: 28%;
+    position: absolute;
+}
+
+.message__comment--violet {
+    top: 231px;
+    right: 10%;
+    background: #61235f;
+}
+.message__comment--green {
+    top: 400px;
+    right: 5%;
+    background: #315c51;
+}
+.message__comment--red {
+    top: 500px;
+    right: 15%;
+    background: #6a2844;
+}
+
+.message__comment--red + .message__smile {
+    left: 50%;
+    bottom: 120px;
+    position: absolute;
+}
+
+.message__comment--black-blue {
+    top: 468px;
+    left: 30%;
+    background: #432858;
+}
+.message__comment--orange {
+    top: 328px;
+    left: 10%;
+    background: #62432c;
+}
+.message__comment--swamp {
+    top: 128px;
+    left: 12%;
+    background: #676a47;
+}
+
+.message__text{
+    margin: 0;
+    font-weight: 400;
+font-size: 18px;
+line-height: 133%;
+color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+
+
+.message__form {
+    position: relative;
+}
+.message__text-input {
+}
+.message__button {
+}

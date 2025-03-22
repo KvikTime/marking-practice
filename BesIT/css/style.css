@@ -7,4 +7,5 @@
 
 /* Blocks */
 /* ------------------------------------ */
+@import "blocks/message.css";
 @import "blocks/footer.css";
