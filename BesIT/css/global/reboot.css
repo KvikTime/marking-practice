@@ -26,6 +26,12 @@ img {
   object-fit: cover;
 }
 
+ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
 a {
   color: inherit;
   text-decoration: none;

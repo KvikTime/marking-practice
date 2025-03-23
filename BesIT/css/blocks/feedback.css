@@ -1,0 +1,101 @@
+.feedback {
+    position: absolute;
+    border-radius: 40px;
+}
+
+.feedback__comment{
+    position: relative;
+    background: inherit;
+    border-radius: inherit;
+}
+
+.feedback--blue{
+    max-width: 334px;
+    top: 83px;
+    left: 38em;
+    background: #243961;
+}
+
+.feedback--blue .feedback__stiker {
+    left: -104px;
+    top: -36px;
+    position: absolute;
+}
+
+.feedback--lilac{
+    max-width: 297px;
+    top: 231px;
+    right: 1.5em;
+    color: #61235f;
+    background: #61235f;
+}
+
+.feedback--green{
+    max-width: 283px;
+    top: 55.45%;
+    right: 0;
+    color: #315c51;
+    background: #315c51;
+}
+
+.feedback--red{
+    max-width: 362px;
+    right: 15.9%;
+    bottom: 6.9%;
+    color: #6a2844;
+    background: #6a2844;
+}
+
+.feedback--violet{
+    max-width: 423px;
+    bottom: 9.7%;
+    left: 10.5%;
+    color: #432858;
+    background: #432858;
+}
+
+.feedback--violet .feedback__stiker {
+    left: 371px;
+    top: -30px;
+    position: absolute;
+}
+
+.feedback--orange{
+    max-width: 303px;
+    top: 47.5%;
+    left: 0;
+    color: #62432c;
+    background: #62432c;
+}
+
+.feedback--swamp{
+    max-width: 363px;
+    top: 17.45%;
+    left: 4.7%;
+    color: #676a47;
+    background: #676a47;
+}
+
+.feedback__text {
+    margin: 0;
+    padding: 32px 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.feedback .feedback__icon {
+    position: absolute;
+    right: -17px;
+    bottom: 0px;
+}
+
+.feedback .feedback__icon--mirror {
+    transform: scaleX(-1);
+    left: -17px;
+}
+
+.feedback__form {
+    position: relative;
+}

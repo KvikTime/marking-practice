@@ -8,4 +8,6 @@
 /* Blocks */
 /* ------------------------------------ */
 @import "blocks/message.css";
+@import "blocks/feedback.css";
+@import "blocks/logo-part.css";
 @import "blocks/footer.css";

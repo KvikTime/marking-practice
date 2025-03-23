@@ -1,0 +1,15 @@
+.part {
+    font-family: "Press Start 2P", "Arial", sans-serif;
+    font-size: 24px;
+    line-height: 100%;
+    color: #87f29a;
+    text-transform: uppercase;
+}
+
+.part__white {
+    color: #fff;
+}
+
+.part--big {
+    font-size: 84px;
+}

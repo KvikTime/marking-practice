@@ -1,6 +1,7 @@
 .message {
     height: 100%;
 }
+
 .message__wrap {
     position: relative;
     display: flex;
@@ -8,88 +9,72 @@
     justify-content: center;
     height: 100%;
 }
-.message__comment-wrap {
+
+.message__list {
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-}
-.message__comment {
-    position: absolute;
-    padding: 32px 40px;
-    max-width: 334px;
-    border-radius: 40px;
-    z-index: 5;
+    overflow: hidden;
 }
 
-
-
-.message__comment--blue {
-    top: 83px;
-    left: 35%;
-    background: #243961;
+.message__inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 540px;
+    gap: 32px;
+    bottom: -8px;
 }
 
-.message__comment--blue + .message__smile {
-    left: 28%;
-    position: absolute;
+.message__slogan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
 }
 
-.message__comment--violet {
-    top: 231px;
-    right: 10%;
-    background: #61235f;
-}
-.message__comment--green {
-    top: 400px;
-    right: 5%;
-    background: #315c51;
-}
-.message__comment--red {
-    top: 500px;
-    right: 15%;
-    background: #6a2844;
+.message__logo {
+    font-size: 0;
 }
 
-.message__comment--red + .message__smile {
-    left: 50%;
-    bottom: 120px;
-    position: absolute;
-}
-
-.message__comment--black-blue {
-    top: 468px;
-    left: 30%;
-    background: #432858;
-}
-.message__comment--orange {
-    top: 328px;
-    left: 10%;
-    background: #62432c;
-}
-.message__comment--swamp {
-    top: 128px;
-    left: 12%;
-    background: #676a47;
-}
-
-.message__text{
+.message__subtitle {
+    padding: 0;
     margin: 0;
     font-weight: 400;
-font-size: 18px;
-line-height: 133%;
-color: rgba(255, 255, 255, 0.7);
+    font-size: 22px;
+    line-height: 145%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
 }
 
-
-
-
-
-.message__form {
+.message__input-wrap {
     position: relative;
 }
+
 .message__text-input {
+    padding: 16px 64px 16px 24px;
+    width: 100%;
+    font-size: 22px;
+    line-height: 145%;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    border: none;
 }
+
+.message__text-input::placeholder {
+    font-size: 22px;
+    line-height: 145%;
+    color: #fff;
+}
+
 .message__button {
+    padding: 0;
+    position: absolute;
+    font-size: 0;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
 }
