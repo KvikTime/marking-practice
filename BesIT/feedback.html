@@ -103,9 +103,9 @@
               <div class="message__input-wrap">
                 <input class="message__text-input" type="text" name="usermessage" id="usermessage" placeholder="Твоё сообщение ..." aria-label="Введите текст сообщения" required>
                 <button class="message__button" type="submit" aria-label="Отправить сообщение">
-                  <svg class="message__send-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="21">
+                  <svg class="message__send-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="21" aria-hidden="true">
                     <use xlink:href="images\sprite.svg#icon-send"></use>
-                  </svg>
+                  </svg>  
                 </button>
               </div>
             </form>
@@ -133,13 +133,13 @@
         <div class="footer__connect-wrap">
           <span class="footer__slogan">Читай подборку по&nbsp;дороге на&nbsp;работу или за&nbsp;чашкой кофе</span>
           <form class="footer__form" action="#" method="POST">
-            <div class="footer__input-wrap">
+            <label class="footer__input-wrap" for="useremail">
               <input class="footer__input-email" type="email" name="useremail" id="useremail" placeholder="Электронная почта" aria-label="Введите электронную почту" required>
               <svg class="footer__email-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="16" aria-hidden="true">
                 <use xlink:href="images\sprite.svg#icon-email"></use>
               </svg>
-            </div>
-            <button class="footer__btn-subscribe">Подписаться</button>
+            </label>
+            <button class="footer__btn-subscribe" type="submit">Подписаться</button>
           </form>
         </div>
       </div>

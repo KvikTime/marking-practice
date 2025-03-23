@@ -15,8 +15,21 @@
 }
 
 .footer__logo {
+    position: relative;
     display: flex;
-    
+    outline: none;
+    user-select: none;
+}
+
+.footer__logo:focus-visible::after{
+    content: "";
+    position: absolute;
+    top: -5px;
+    right: 0;
+    bottom: 0;
+    left: -5px;
+    outline-offset: 5px;
+    outline: 1px #fff solid;
 }
 
 .footer__copyright {
@@ -75,6 +88,12 @@
     background: rgba(255, 255, 255, 0.15);
     border: none;
     border-radius: 8px;
+    outline: none;
+}
+
+.footer__input-email:focus-visible {
+    outline-offset: 5px;
+    outline: 1px #fff solid;
 }
 
 .footer__input-email::placeholder {
@@ -99,4 +118,10 @@
     color: #000;
     background: #87f29a;
     border-radius: 8px;
+    outline: none;
+}
+
+.footer__btn-subscribe:focus-visible {
+    outline-offset: 5px;
+    outline: 1px #fff solid;
 }

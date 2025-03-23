@@ -20,6 +20,7 @@
     left: -104px;
     top: -36px;
     position: absolute;
+    user-select: none;
 }
 
 .feedback--lilac{
@@ -58,6 +59,7 @@
     left: 371px;
     top: -30px;
     position: absolute;
+    user-select: none;
 }
 
 .feedback--orange{
