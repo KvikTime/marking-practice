@@ -54,6 +54,7 @@
 }
 
 .message__text-input {
+    position: relative;
     padding: 16px 64px 16px 24px;
     width: 100%;
     font-size: 22px;
@@ -62,6 +63,11 @@
     background: rgba(255, 255, 255, 0.15);
     border-radius: 8px;
     border: none;
+}
+
+.message__text-input:focus-visible {
+    outline-offset: 5px;
+    outline: 1px #fff solid;
 }
 
 .message__text-input::placeholder {
@@ -77,4 +83,21 @@
     right: 25px;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.message__button:focus-visible {
+    outline: none;
+}
+
+.message__button::before{
+    content: "";
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+}
+
+.message__button:focus-visible::before{
+    outline: 1px #fff solid;
 }
