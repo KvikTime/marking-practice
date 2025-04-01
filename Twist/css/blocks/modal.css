@@ -37,7 +37,9 @@
 
 /* Плашку с успешной отправкой спозиционируй от modal__content */
 .modal__content {
-	position: relative;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
 	width: 100%;
 	max-width: 1200px;
 	min-height: 660px;
@@ -45,5 +47,9 @@
 }
 
 .modal__title{
-	
+	margin: 0;
+	font-size: 24px;
+	line-height: 150%;
+	text-transform: uppercase;
+	color: #180000;
 }

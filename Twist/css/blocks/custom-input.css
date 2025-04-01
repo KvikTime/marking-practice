@@ -1,6 +1,25 @@
 .custom-input {
+    display: flex;
+    flex-direction: column;
 }
+
+.custom-input input{
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-bottom: 1px solid #c8c8ca;
+}
+
+
 .custom-input__label {
+    font-size: 12px;
+    line-height: 120%;
+    color: #99999e;
 }
-.custom-input__user-data {
+
+.custom-input__user-data::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: #99999e;
 }

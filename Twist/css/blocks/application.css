@@ -1,7 +1,16 @@
 .application {
 }
 .application__user-data {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
+
+.application__wrap {
+    display: flex;
+    gap: 60px;
+}
+
 .application__bottom-panel {
 }
 .application__user-massage {

@@ -1,6 +1,9 @@
 .custom-textarea {
 }
 .custom-textarea__label {
+    font-size: 12px;
+    line-height: 120%;
+    color: #99999e;
 }
 .custom-textarea__massage {
 }

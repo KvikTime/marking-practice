@@ -221,21 +221,23 @@
           <h2 class="modal__title">Оставьте контакты&nbsp;&mdash; и&nbsp;мы&nbsp;с&nbsp;вами свяжемся</h2>
           <form action="№" class="application">
             <fieldset class="application__user-data">
-              <legend class="visually-hidden" aria-hidden="true">Данные пользователя</legend>
+              <legend class="application__subtitle visually-hidden" aria-hidden="true">Данные пользователя</legend>
 
-              <div class="custom-input">
-                <label class="custom-input__label" for="user-phone">Телефон *</label>
-                <input class="custom-input__user-data" type="tel" name="phone" id="user-phone" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ" required>
-              </div>
-
-              <div class="custom-input">
-                <label class="custom-input__label" for="user-name">Имя</label>
-                <input class="custom-input__user-data" type="text" name="name" id="user-name" required>
-              </div>
-
-              <div class="custom-input">
-                <label class="custom-input__label" for="user-mail" >E-mail</label>
-                <input class="custom-input__user-data" type="email" name="mail" id="user-mail" required>
+              <div class="application__wrap">
+                <div class="custom-input">
+                  <label class="custom-input__label" for="user-phone">Телефон *</label>
+                  <input class="custom-input__user-data" type="tel" name="phone" id="user-phone" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ" required>
+                </div>
+  
+                <div class="custom-input">
+                  <label class="custom-input__label" for="user-name">Имя</label>
+                  <input class="custom-input__user-data" type="text" name="name" id="user-name" required>
+                </div>
+  
+                <div class="custom-input">
+                  <label class="custom-input__label" for="user-mail" >E-mail</label>
+                  <input class="custom-input__user-data" type="email" name="mail" id="user-mail" required>
+                </div>
               </div>
             </fieldset>
 
@@ -243,7 +245,7 @@
               <fieldset class="application__user-massage">
                 <legend class="visually-hidden" aria-hidden="true">Сообщение от пользователя</legend>
                 <div class="custom-textarea">
-                  <label class="custom-textarea__label" for="user-message"></label>
+                  <label class="custom-textarea__label" for="user-message">Сообщение</label>
                   <textarea class="custom-textarea__massage" name="message" id="user-message">Меня интересует помещение №114 площадью 529 кв. м. на 9 этаже с видом на реку</textarea>
                 </div>
               </fieldset>
