@@ -218,49 +218,51 @@
               <use xlink:href="images/sprite.svg#icon-cross"></use>
             </svg>
           </button>
-          <h2 class="modal__title">Оставьте контакты&nbsp;&mdash; и&nbsp;мы&nbsp;с&nbsp;вами свяжемся</h2>
-          <form action="№" class="application">
-            <fieldset class="application__user-data">
-              <legend class="application__subtitle visually-hidden" aria-hidden="true">Данные пользователя</legend>
-
-              <div class="application__wrap">
-                <div class="custom-input">
-                  <label class="custom-input__label" for="user-phone">Телефон *</label>
-                  <input class="custom-input__user-data" type="tel" name="phone" id="user-phone" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ" required>
-                </div>
+          <div class="modal__container">
+            <h2 class="modal__title">Оставьте контакты&nbsp;&mdash; и&nbsp;мы&nbsp;с&nbsp;вами свяжемся</h2>
+            <form action="№" class="application">
+              <fieldset class="application__user-data">
+                <legend class="application__subtitle visually-hidden" aria-hidden="true">Данные пользователя</legend>
   
-                <div class="custom-input">
-                  <label class="custom-input__label" for="user-name">Имя</label>
-                  <input class="custom-input__user-data" type="text" name="name" id="user-name" required>
-                </div>
-  
-                <div class="custom-input">
-                  <label class="custom-input__label" for="user-mail" >E-mail</label>
-                  <input class="custom-input__user-data" type="email" name="mail" id="user-mail" required>
-                </div>
-              </div>
-            </fieldset>
-
-            <div class="application__bottom-panel">
-              <fieldset class="application__user-massage">
-                <legend class="visually-hidden" aria-hidden="true">Сообщение от пользователя</legend>
-                <div class="custom-textarea">
-                  <label class="custom-textarea__label" for="user-message">Сообщение</label>
-                  <textarea class="custom-textarea__massage" name="message" id="user-message">Меня интересует помещение №114 площадью 529 кв. м. на 9 этаже с видом на реку</textarea>
+                <div class="application__wrap">
+                  <div class="custom-input">
+                    <label class="custom-input__label" for="user-phone">Телефон *</label>
+                    <input class="custom-input__user-data" type="tel" name="phone" id="user-phone" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ" required>
+                  </div>
+    
+                  <div class="custom-input">
+                    <label class="custom-input__label" for="user-name">Имя</label>
+                    <input class="custom-input__user-data" type="text" name="name" id="user-name" required>
+                  </div>
+    
+                  <div class="custom-input">
+                    <label class="custom-input__label" for="user-mail" >E-mail</label>
+                    <input class="custom-input__user-data" type="email" name="mail" id="user-mail" required>
+                  </div>
                 </div>
               </fieldset>
   
-              <div class="application__inner-wrap">
-                <div class="custom-checkbox">
-                  <label class="custom-checkbox__label" for="user-agreement">Я&nbsp;даю согласие на&nbsp;обработку моих персональных данных согласно <a class="custom-checkbox__link" href="#">политике конфиденциальности</a></label>
-                  <input class="custom-checkbox__input" type="checkbox" name="agreement" id="user-agreement" required>
+              <div class="application__bottom-panel">
+                <fieldset class="application__user-massage">
+                  <legend class="visually-hidden" aria-hidden="true">Сообщение от пользователя</legend>
+                  <div class="custom-textarea">
+                    <label class="custom-textarea__label" for="user-message">Сообщение</label>
+                    <textarea class="custom-textarea__massage" name="message" id="user-message">Меня интересует помещение №114 площадью 529 кв. м. на 9 этаже с видом на реку</textarea>
+                  </div>
+                </fieldset>
+    
+                <div class="application__inner-wrap">
+                  <div class="custom-checkbox">
+                    <input class="custom-checkbox__input visually-hidden" type="checkbox" name="agreement" id="user-agreement" required>
+                    <label class="custom-checkbox__label" for="user-agreement">Я&nbsp;даю согласие на&nbsp;обработку моих персональных данных согласно <a class="custom-checkbox__link" href="#" aria-label="Перейти к политике конфиденциальности ">политике конфиденциальности</a></label>
+                  </div>
+                  <button class="application__post-btn" type="submit" disabled>Отправить</button>
                 </div>
-                <button class="application__post-btn" type="submit" disabled>Отправить</button>
               </div>
-            </div>
-
-            
-          </form>
+  
+              
+            </form>
+          </div>
         </div>
       </div>
     </div>

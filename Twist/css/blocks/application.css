@@ -1,5 +1,9 @@
 .application {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
+
 .application__user-data {
     margin: 0;
     padding: 0;
@@ -12,10 +16,33 @@
 }
 
 .application__bottom-panel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
 }
+
 .application__user-massage {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
+
 .application__inner-wrap {
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
 }
+
 .application__post-btn {
+    padding: 20px;
+    width: 200px;
+    font-size: 14px;
+    line-height: 115%;
+    color: #fff;
+    background: #3c52e6;
+}
+
+.application__post-btn[disabled] {
+    color: rgba(255, 255, 255, 0.5);
+    background: rgba(60, 82, 230, 0.5);
 }
