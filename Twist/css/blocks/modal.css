@@ -36,17 +36,11 @@
 }
 
 /* Плашку с успешной отправкой спозиционируй от modal__content */
-.modal__container {
-	padding: 153px 105px;
-	display: flex;
-	flex-direction: column;
-	gap: 60px;
-}
-
 .modal__content {
 	position: relative;
-	padding: 15px;
+	padding: 168px 120px;
 	display: flex;
+	gap: 60px;
 	flex-direction: column;
 	width: 100%;
 	max-width: 1200px;

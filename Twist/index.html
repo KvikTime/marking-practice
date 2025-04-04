@@ -218,9 +218,8 @@
               <use xlink:href="images/sprite.svg#icon-cross"></use>
             </svg>
           </button>
-          <div class="modal__container">
             <h2 class="modal__title">Оставьте контакты&nbsp;&mdash; и&nbsp;мы&nbsp;с&nbsp;вами свяжемся</h2>
-            <form action="№" class="application">
+            <form action="#" class="application">
               <fieldset class="application__user-data">
                 <legend class="application__subtitle visually-hidden" aria-hidden="true">Данные пользователя</legend>
   
@@ -232,12 +231,12 @@
     
                   <div class="custom-input">
                     <label class="custom-input__label" for="user-name">Имя</label>
-                    <input class="custom-input__user-data" type="text" name="name" id="user-name" required>
+                    <input class="custom-input__user-data" type="text" name="name" id="user-name">
                   </div>
     
                   <div class="custom-input">
                     <label class="custom-input__label" for="user-mail" >E-mail</label>
-                    <input class="custom-input__user-data" type="email" name="mail" id="user-mail" required>
+                    <input class="custom-input__user-data" type="email" name="mail" id="user-mail">
                   </div>
                 </div>
               </fieldset>
@@ -259,10 +258,18 @@
                   <button class="application__post-btn" type="submit" disabled>Отправить</button>
                 </div>
               </div>
-  
-              
             </form>
-          </div>
+            <div class="reply reply--active">
+              <span class="reply__massage">Отправлено</span>
+              <div class="reply__wrap">
+                <svg class="reply__icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#icon-time"></use>
+                </svg>
+                <span class="reply__time-text">
+                  закроется через 3&nbsp;секунды
+                </span>
+              </div>
+            </div>
         </div>
       </div>
     </div>

@@ -1,0 +1,39 @@
+.reply {
+    position: absolute;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    max-width: 260px;
+    width: 100%;
+    background: #3c52e6;
+    align-self: center;
+    bottom: 29px;
+    display: none;
+}
+
+.reply--active {
+    display: flex;
+}
+
+.reply__massage {
+    font-size: 24px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.reply__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.reply__time-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    color: #fff;
+}
+
