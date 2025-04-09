@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
     <title>Sminex - ИНТЕКО</title>
   </head>
 
@@ -26,81 +26,136 @@
 
     <main>
       <!-- Вакансии -->
-
       <section class="vacancies">
         <div class="container">
           <h1 class="visually-hidden"></h1>
 
-          <div class="vacancies__top-part">
-            <h2 class="vacancies__subtitle"></h2>
-            <div class="vacancies__contacts">
-              <span class="vacancies__description"></span>
-              <div class="vacancies__links">
-                <a class="vacancies__phone" href="#"></a>
-                <a class="vacancies__mail" href="#"></a>
+          <div class="vacancies__wrapper">
+            <div class="vacancies__inner">
+              <h2 class="vacancies__subtitle"></h2>
+              <div class="vacancies__contacts">
+                <span class="vacancies__description"></span>
+                <div class="vacancies__links">
+                  <a class="vacancies__phone" href="#"></a>
+                  <a class="vacancies__mail" href="#"></a>
+                </div>
+    
+                <a class="vacancies__send" href="#"></a>
               </div>
-  
-              <a class="vacancies__send" href="#"></a>
             </div>
+
+            <ul class="vacancies__list">
+              <li class="vacancies__item">
+                <div class="current">
+                  <p class="current__text">
+                    <span class="current__descr"></span>
+                    <span class="current__income"></span>
+                  </p>
+                </div>
+              </li>
+              <li class="vacancies__item">
+                <div class="current">
+                  <p class="current__text">
+                    <span class="current__descr"></span>
+                    <span class="current__income"></span>
+                  </p>
+                </div>
+              </li>
+              <li class="vacancies__item">
+                <div class="current">
+                  <p class="current__text">
+                    <span class="current__descr"></span>
+                    <span class="current__income"></span>
+                  </p>
+                </div>
+              </li>
+              <li class="vacancies__item">
+                <div class="current">
+                  <p class="current__text">
+                    <span class="current__descr"></span>
+                    <span class="current__income"></span>
+                  </p>
+                </div>
+              </li>
+              <li class="vacancies__item">
+                <div class="current">
+                  <p class="current__text">
+                    <span class="current__descr"></span>
+                    <span class="current__income"></span>
+                  </p>
+                </div>
+              </li>
+              <li class="vacancies__item">
+                <div class="current">
+                  <p class="current__text">
+                    <span class="current__descr"></span>
+                    <span class="current__income"></span>
+                  </p>
+                </div>
+              </li>
+            </ul>
           </div>
 
-          <ul class="vacancies__list">
-            <li class="vacancies__item">
-              <div class="current">
-                <p class="current__text">
-                  <span class="current__descr"></span>
-                  <span class="current__income"></span>
-                </p>
-              </div>
-            </li>
-            <li class="vacancies__item">
-              <div class="current">
-                <p class="current__text">
-                  <span class="current__descr"></span>
-                  <span class="current__income"></span>
-                </p>
-              </div>
-            </li>
-            <li class="vacancies__item">
-              <div class="current">
-                <p class="current__text">
-                  <span class="current__descr"></span>
-                  <span class="current__income"></span>
-                </p>
-              </div>
-            </li>
-            <li class="vacancies__item">
-              <div class="current">
-                <p class="current__text">
-                  <span class="current__descr"></span>
-                  <span class="current__income"></span>
-                </p>
-              </div>
-            </li>
-            <li class="vacancies__item">
-              <div class="current">
-                <p class="current__text">
-                  <span class="current__descr"></span>
-                  <span class="current__income"></span>
-                </p>
-              </div>
-            </li>
-            <li class="vacancies__item">
-              <div class="current">
-                <p class="current__text">
-                  <span class="current__descr"></span>
-                  <span class="current__income"></span>
-                </p>
-              </div>
-            </li>
-          </ul>
+          
 
-          <form class="" action="#" method="POST">
-            
-          </form>
+          <div class="vacancies__form">
+            <div class="vacancies__inner">
+              <h2 class="vacancies__subtitle"></h2>
+              <span class="vacancies__feedback"></span>
+            </div>
+            <form class="user-form" action="#" method="POST">
+              <fieldset class="user-form__group">
+                <legend class="user-form__title-group visually-hidden">Данные пользователя</legend>
+                <div class="custom-input">
+                  <input class="custom-input__field" type="text" name="username" id="username-input" required>
+                  <label class="custom-input__label" for="username-input"></label>
+                </div>
+  
+                <div class="custom-input">
+                  <input class="custom-input__field" type="tel" name="phone" id="phone-input" required>
+                  <label class="custom-input__label" for="phone-input"></label>
+                </div>
+  
+                <div class="custom-input">
+                  <input class="custom-input__field" type="text" name="lastame" id="lastame-input" required>
+                  <label class="custom-input__label" for="lastame-input"></label>
+                </div>
+  
+                <div class="custom-input">
+                  <input class="custom-input__field" type="email" name="mail" id="email-input" required>
+                  <label class="custom-input__label" for="email-input"></label>
+                </div>
+  
+                <div class="custom-input">
+                  <input class="custom-input__field" type="text" name="job-title" id="job-title-input" required>
+                  <label class="custom-input__label" for="job-title-input"></label>
+                </div>
+  
+                <div class="custom-input">
+                  <input class="custom-input__field" type="text" name="link-resume" id="link-resume-input" required>
+                  <label class="custom-input__label" for="link-resume-input"></label>
+                </div>
+              </fieldset>
+
+              <div class="user-form__inner-wrap">
+                <div class="custom-checkbox">
+                  <input class="custom-checkbox__field" value="agree" type="checkbox" name="user-consent" id="checkbox-input" required>
+                  <label class="custom-checkbox__label" for="checkbox-input"></label>
+                </div>
+
+                <button class="user-form__btn" type="submit"></button>
+              </div>
+            </form>
+          </div>
         </div>
       </section>
-      
+      <div class="cookie">
+        <svg class="cookie__close" width="" height="" aria-hidden="true">
+          <use xlink:href="images/sprite.svg#"></use>
+        </svg>
+        <p class="cookie__text"><a href="#" class="cookie__link"></a></p>
+        <button class="cookie__more" type="button"></button>
+      </div>
     </main>
 
     <footer class="footer">
