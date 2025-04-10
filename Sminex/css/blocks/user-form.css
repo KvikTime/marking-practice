@@ -1,0 +1,17 @@
+.user-form {
+    
+}
+.user-form__group {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    border: none;
+}
+.user-form__title-group {
+}
+.user-form__inner-wrap {
+}
+.user-form__btn {
+}

@@ -9,4 +9,11 @@
 
 @import "blocks/header.css";
 @import "blocks/footer.css";
+@import "blocks/vacancies.css";
+@import "blocks/current.css";
+@import "blocks/user-form.css";
+@import "blocks/custom-input.css";
+@import "blocks/custom-checkbox.css";
+@import "blocks/btn.css";
+@import "blocks/cookie.css";
 

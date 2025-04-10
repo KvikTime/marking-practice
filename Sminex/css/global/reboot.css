@@ -20,10 +20,19 @@ body {
 header {
   position: fixed;
   width: 100vw;
+  background: inherit;
+  z-index: 50;
 }
 
 main {
+  padding-top: 80px;
   flex-grow: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 img {

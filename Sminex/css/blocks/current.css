@@ -1,0 +1,17 @@
+.current {
+}
+.current__text {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-weight: 300;
+font-size: 20px;
+line-height: 120%;
+text-transform: uppercase;
+color: #1d252d;
+}
+.current__descr {
+}
+.current__income {
+}

@@ -28,19 +28,20 @@
       <!-- Вакансии -->
       <section class="vacancies">
         <div class="container">
-          <h1 class="visually-hidden"></h1>
+          <h1 class="visually-hidden">Актуальные вакансии компании Sminex</h1>
 
           <div class="vacancies__wrapper">
             <div class="vacancies__inner">
-              <h2 class="vacancies__subtitle"></h2>
-              <div class="vacancies__contacts">
-                <span class="vacancies__description"></span>
-                <div class="vacancies__links">
-                  <a class="vacancies__phone" href="#"></a>
-                  <a class="vacancies__mail" href="#"></a>
+              <h2 class="vacancies__subtitle">Вакансии</h2>
+              <div class="vacancies__connect">
+                <div class="vacancies__contacts">
+                  <span class="vacancies__description">Контакты HR-отдела</span>
+                  <div class="vacancies__links-wrap">
+                    <a class="vacancies__link vacancies__link--phone" href="tel:+74954878808">+7 (495) 487-88-08</a>
+                    <a class="vacancies__link vacancies__link--mail" href="mailto:hr@sminex.com">hr@sminex.com</a>
+                  </div>
                 </div>
-    
-                <a class="vacancies__send" href="#"></a>
+                <a class="vacancies__send" href="#">Отправить резюме</a>
               </div>
             </div>
 
@@ -48,48 +49,48 @@
               <li class="vacancies__item">
                 <div class="current">
                   <p class="current__text">
-                    <span class="current__descr"></span>
-                    <span class="current__income"></span>
+                    <span class="current__descr">руководитель группы продаж через sminex club</span>
+                    <span class="current__income">240&nbsp;000&nbsp;руб.</span>
                   </p>
                 </div>
               </li>
               <li class="vacancies__item">
                 <div class="current">
                   <p class="current__text">
-                    <span class="current__descr"></span>
-                    <span class="current__income"></span>
+                    <span class="current__descr">руководитель группы архитекторов (планировочные решения)</span>
+                    <span class="current__income">от&nbsp;230&nbsp;000 до&nbsp;345&nbsp;000&nbsp;руб.</span>
                   </p>
                 </div>
               </li>
               <li class="vacancies__item">
                 <div class="current">
                   <p class="current__text">
-                    <span class="current__descr"></span>
-                    <span class="current__income"></span>
+                    <span class="current__descr">администратор ресепшен/секретарь</span>
+                    <span class="current__income">от&nbsp;65&nbsp;000 до&nbsp;85&nbsp;000&nbsp;руб.</span>
                   </p>
                 </div>
               </li>
               <li class="vacancies__item">
                 <div class="current">
                   <p class="current__text">
-                    <span class="current__descr"></span>
-                    <span class="current__income"></span>
+                    <span class="current__descr">ведущий специалист по&nbsp;закупкам (отделочные материалы)</span>
+                    <span class="current__income">от&nbsp;195&nbsp;000 до&nbsp;290&nbsp;000&nbsp;руб.</span>
                   </p>
                 </div>
               </li>
               <li class="vacancies__item">
                 <div class="current">
                   <p class="current__text">
-                    <span class="current__descr"></span>
-                    <span class="current__income"></span>
+                    <span class="current__descr">ведущий специалист по&nbsp;закупкам (инженерное оборудование)</span>
+                    <span class="current__income">от&nbsp;190&nbsp;000 до&nbsp;290&nbsp;000&nbsp;руб.</span>
                   </p>
                 </div>
               </li>
               <li class="vacancies__item">
                 <div class="current">
                   <p class="current__text">
-                    <span class="current__descr"></span>
-                    <span class="current__income"></span>
+                    <span class="current__descr">начальник отдела проектирования кр (проектное бюро)</span>
+                    <span class="current__income">з/п по&nbsp;итогам собеседования</span>
                   </p>
                 </div>
               </li>
@@ -100,61 +101,73 @@
 
           <div class="vacancies__form">
             <div class="vacancies__inner">
-              <h2 class="vacancies__subtitle"></h2>
-              <span class="vacancies__feedback"></span>
+              <h2 class="vacancies__subtitle">отправить резюме</h2>
+              <span class="vacancies__feedback">Мы&nbsp;свяжемся с&nbsp;вами, когда появится подходящая вакансия</span>
             </div>
             <form class="user-form" action="#" method="POST">
               <fieldset class="user-form__group">
                 <legend class="user-form__title-group visually-hidden">Данные пользователя</legend>
                 <div class="custom-input">
                   <input class="custom-input__field" type="text" name="username" id="username-input" required>
-                  <label class="custom-input__label" for="username-input"></label>
+                  <label class="custom-input__label" for="username-input">Имя*</label>
                 </div>
   
                 <div class="custom-input">
                   <input class="custom-input__field" type="tel" name="phone" id="phone-input" required>
-                  <label class="custom-input__label" for="phone-input"></label>
+                  <label class="custom-input__label" for="phone-input">Телефон*</label>
                 </div>
   
                 <div class="custom-input">
                   <input class="custom-input__field" type="text" name="lastame" id="lastame-input" required>
-                  <label class="custom-input__label" for="lastame-input"></label>
+                  <label class="custom-input__label" for="lastame-input">Фамилия*</label>
                 </div>
   
                 <div class="custom-input">
                   <input class="custom-input__field" type="email" name="mail" id="email-input" required>
-                  <label class="custom-input__label" for="email-input"></label>
+                  <label class="custom-input__label" for="email-input">E-mail*</label>
+                  <svg class="custom-input__icon" width="28" height="28" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#icon-email"></use>
+                  </svg>
                 </div>
   
                 <div class="custom-input">
                   <input class="custom-input__field" type="text" name="job-title" id="job-title-input" required>
-                  <label class="custom-input__label" for="job-title-input"></label>
+                  <label class="custom-input__label" for="job-title-input">Желаемая должность*</label>
                 </div>
   
                 <div class="custom-input">
                   <input class="custom-input__field" type="text" name="link-resume" id="link-resume-input" required>
-                  <label class="custom-input__label" for="link-resume-input"></label>
+                  <label class="custom-input__label" for="link-resume-input">Ссылка на&nbsp;резюме*</label>
+                  <svg class="custom-input__icon" width="28" height="28" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#icon-link"></use>
+                  </svg>
                 </div>
               </fieldset>
 
               <div class="user-form__inner-wrap">
                 <div class="custom-checkbox">
                   <input class="custom-checkbox__field" value="agree" type="checkbox" name="user-consent" id="checkbox-input" required>
-                  <label class="custom-checkbox__label" for="checkbox-input"></label>
+                  <label class="custom-checkbox__label" for="checkbox-input">
+                    <span class="custom-checkbox__text">Даю согласие на&nbsp;обработку</span>
+                    <a href="#" class="custom-checkbox__link">персональных данных</a>
+                  </label>
                 </div>
 
-                <button class="user-form__btn" type="submit"></button>
+                <button class="user-form__btn btn" type="submit">Отправить заявку</button>
               </div>
             </form>
           </div>
         </div>
       </section>
+
       <div class="cookie">
-        <svg class="cookie__close" width="" height="" aria-hidden="true">
-          <use xlink:href="images/sprite.svg#"></use>
-        </svg>
-        <p class="cookie__text"><a href="#" class="cookie__link"></a></p>
-        <button class="cookie__more" type="button"></button>
+        <button class="cookie__close-btn" type="button">
+          <svg class="cookie__close" width="20" height="20" aria-hidden="true">
+            <use xlink:href="images/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="cookie__text">Мы&nbsp;используем файлы cookie для улучшения работы этого сайта. Для получения дополнительной информации ознакомьтесь с&nbsp;нашей <a href="#" class="cookie__link">Политикой конфиденциальности</a></p>
+        <button class="cookie__more btn btn--small" type="button">Подробнее</button>
       </div>
     </main>
 
