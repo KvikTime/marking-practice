@@ -51,6 +51,16 @@ textarea {
   resize: none;
 }
 
+label {
+ cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: inherit;
+}
+
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,

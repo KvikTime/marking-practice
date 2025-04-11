@@ -7,6 +7,7 @@
 .visually-hidden {
 }
 .vacancies__wrapper {
+  margin-bottom: 120px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -104,6 +105,9 @@
 }
 
 .vacancies__form {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
 }
 .vacancies__feedback {
     max-width: 280px;

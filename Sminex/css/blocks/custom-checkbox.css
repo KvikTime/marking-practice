@@ -3,7 +3,41 @@
 .custom-checkbox__field {
 }
 .custom-checkbox__label {
+    position: relative;
+    padding: 0 0 0 20px;
+
 }
+
+.custom-checkbox__label::before {
+    position: absolute;
+    content: "";
+    border: 1px solid #d6d2c4;
+    width: 20px;
+    height: 20px;
+    left: -10px;
+}
+
+.custom-checkbox__marker {
+    position: absolute;
+    display: none;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -5px;
+}
+
+.custom-checkbox__field:checked + .custom-checkbox__label::before {
+    background-color: #d6d2c4;
+    transition: all .3s ease-in-out;
+}
+
+.custom-checkbox__field:checked + .custom-checkbox__label .custom-checkbox__marker {
+    display: block;
+    transition: all .3s ease-in-out;
+}
+
+
+
+
 .custom-checkbox__text {
 }
 .custom-checkbox__link {

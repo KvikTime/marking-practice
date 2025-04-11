@@ -97,8 +97,6 @@
             </ul>
           </div>
 
-          
-
           <div class="vacancies__form">
             <div class="vacancies__inner">
               <h2 class="vacancies__subtitle">отправить резюме</h2>
@@ -146,10 +144,13 @@
 
               <div class="user-form__inner-wrap">
                 <div class="custom-checkbox">
-                  <input class="custom-checkbox__field" value="agree" type="checkbox" name="user-consent" id="checkbox-input" required>
+                  <input class="custom-checkbox__field visually-hidden" value="agree" type="checkbox" name="user-consent" id="checkbox-input" required>
                   <label class="custom-checkbox__label" for="checkbox-input">
                     <span class="custom-checkbox__text">Даю согласие на&nbsp;обработку</span>
                     <a href="#" class="custom-checkbox__link">персональных данных</a>
+                    <svg class="custom-checkbox__marker" width="10" height="8" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="images/sprite.svg#icon-marker"></use>
+                    </svg>
                   </label>
                 </div>
 
