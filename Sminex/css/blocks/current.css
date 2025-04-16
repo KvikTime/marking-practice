@@ -1,22 +1,31 @@
-.current {
-}
 .current__text {
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    font-weight: 300;
-font-size: 20px;
-line-height: 120%;
-text-transform: uppercase;
-color: #1d252d;
+  margin: 0;
+  padding: 27.5px 28px 27.5px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #1d252d;
+  cursor: pointer;
+  transition: all .15s ease-in-out;
 }
-.current__descr {
+
+.current__text:hover {
+  background: rgba(214, 210, 196, 0.2);
 }
+
 .current__income {
-    max-width: 350px;
-    min-width: 320px;
-    width: 100%;
-    align-self: center;
-    text-align: right;
+  max-width: 320px;
+  min-width: 300px;
+  width: 100%;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 125%;
+  color: #1d252d;
+  align-self: center;
+  text-align: right;
+  text-transform: lowercase;
 }

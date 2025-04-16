@@ -1,13 +1,15 @@
 .vacancies {
-    padding: 40px 0 0 0;
   color: #1d252d;
 }
-.container {
-}
-.visually-hidden {
-}
-.vacancies__wrapper {
+
+.vacancies__content {
   margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.vacancies__wrapper {
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -15,6 +17,7 @@
 
 .vacancies__inner {
   display: flex;
+  padding: 40px 0 0;
   justify-content: space-between;
   align-items: center;
   gap: 100px;
@@ -26,6 +29,11 @@
   font-size: 60px;
   line-height: 120%;
   text-transform: uppercase;
+}
+
+.vacancies__subtitle--mini {
+  font-size: 48px;
+  line-height: 121%;
 }
 
 .vacancies__connect {
@@ -83,33 +91,26 @@
   width: 0;
 }
 
-.vacancies__send {
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 129%;
-  color: inherit;
-  text-decoration: underline;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  text-underline-offset: 0;
+.vacancies__link:hover {
+ text-decoration: underline;
+ text-underline-position: from-font;
 }
 
 .vacancies__item {
-  padding: 28px;
   border-top: 1px solid #d6d2c4;
 }
 
 .vacancies__item:last-child {
-  padding: 28px;
   border-bottom: 1px solid #d6d2c4;
 }
 
 .vacancies__form {
   display: flex;
   flex-direction: column;
-  gap: 55px;
+  gap: 57px;
 }
+
 .vacancies__feedback {
-    max-width: 280px;
-    text-align: right;
+  max-width: 280px;
+  text-align: right;
 }

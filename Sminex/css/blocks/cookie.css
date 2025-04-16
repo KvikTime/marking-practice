@@ -1,13 +1,30 @@
 .cookie {
-    display: none;
+  display: none;
 }
+
+.cookie--active {
+  padding: 26px 26px 16px 26px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 360px;
+  bottom: 252px;
+  right: 20px;
+  background: #1d252d;
+}
+
 .cookie__close-btn {
+  position: absolute;
+  font-size: 0;
+  top: 6px;
+  right: 6px;
 }
-.cookie__close {
-}
+
 .cookie__text {
-}
-.cookie__link {
-}
-.cookie__more {
+  margin: 0;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 125%;
+  color: #fff;
 }

@@ -1,0 +1,23 @@
+.small-links {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 129%;
+  color: inherit;
+  text-decoration: underline;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 0;
+  transition: all .3s ease-in-out;
+}
+
+.small-links:hover {
+  color: rgba(29, 37, 45, 0.5);
+}
+
+.small-links--font {
+  font-size: 12px;
+}
+
+.small-links--font:hover {
+  color: rgba(255, 255, 255, 0.5);
+}

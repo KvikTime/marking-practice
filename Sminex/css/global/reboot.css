@@ -25,6 +25,7 @@ header {
 }
 
 main {
+  position: relative;
   padding-top: 80px;
   flex-grow: 1;
 }
@@ -56,6 +57,7 @@ label {
 }
 
 button {
+  padding: 0;
   cursor: pointer;
   border: none;
   background: inherit;

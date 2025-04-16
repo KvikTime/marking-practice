@@ -1,5 +1,38 @@
 .btn {
+  padding: 17px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 125%;
+  color: #1d252d;
+  width: 320px;
+	border: 1px solid #d6d2c4;
+  border-radius: 40px;
+  background: #d6d2c4;
+  font-family: inherit;
+	transition: all .3s ease-in-out;
+	outline: none;
 }
 
 .btn--small {
+  padding: 8px;
+  font-size: 12px;
+  line-height: 117%;
+  width: 308px;
+}
+
+.btn:hover {
+	background: #1d252d;
+	color: #fff;
+}
+
+.btn:focus-visible {
+	background: #0e1114;
+	color: #fff;
+}
+
+.btn[disabled] {
+	background: rgba(214, 210, 196, 0.5);
+	color: rgba(29, 37, 45, 0.5);
+	cursor: not-allowed;
 }

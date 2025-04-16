@@ -1,6 +1,6 @@
 .header {
   min-height: 80px;
-  padding: 23px 28px;
+  padding: 26px 28px;
   border-bottom: 1px solid #e2e2e2;
 }
 
@@ -25,4 +25,8 @@
 
 .header__logo {
   color: #1D252D;
+}
+
+.header__logo-link {
+  font-size: 0;
 }
