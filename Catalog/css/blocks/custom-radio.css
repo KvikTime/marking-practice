@@ -1,0 +1,34 @@
+.custom-radio {
+    height: 100%;
+    font-weight: 400;
+font-size: 12px;
+line-height: 117%;
+letter-spacing: -0.04em;
+color: #090909;
+display: flex;
+    align-items: stretch;
+}
+
+.custom-radio__label {
+    padding: 31px 20px;
+    gap: 4px;
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background: #f3f3f3;
+}
+
+
+
+.custom-radio__icon{
+    color: transparent;
+}
+
+.custom-radio__input:checked + .custom-radio__label {
+    background: #fff;
+}
+
+.custom-radio__span {
+    max-width: 132px;
+}

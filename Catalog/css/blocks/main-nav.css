@@ -1,0 +1,18 @@
+.main-nav {
+    position: absolute;
+    max-width: 420px;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.main-nav__list {
+    display: flex;
+    width: 100%;
+}
+.main-nav__item {
+    width: 100%;
+}
