@@ -8,7 +8,11 @@
 /* Blocks */
 @import "blocks/header.css";
 @import "blocks/main-nav.css";
+@import "blocks/catalog.css";
 @import "blocks/custom-radio.css";
+@import "blocks/custom-checkbox.css";
+@import "blocks/custom-search.css";
+@import "blocks/catalog-form.css";
 @import "blocks/catalog-list.css";
 @import "blocks/catalog-card.css";
 @import "blocks/parameter-card.css";

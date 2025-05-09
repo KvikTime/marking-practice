@@ -28,6 +28,12 @@ button {
   cursor: pointer;
 }
 
+fieldset{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 label {
   cursor: pointer;
 }
@@ -44,3 +50,6 @@ ul {
   list-style-type: none;
 }
 
+[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
+  display: none;
+}
