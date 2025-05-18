@@ -26,6 +26,7 @@
   align-items: center;
   color: #090909;
   gap: 11px;
+  outline: none;
 }
 
 .catalog-form__text-reset {
