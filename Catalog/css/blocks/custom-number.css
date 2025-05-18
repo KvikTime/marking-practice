@@ -1,15 +1,22 @@
 .custom-number {
- padding-bottom:4px;
   position: relative;
   font-weight: 400;
   font-size: 12px;
   line-height: 117%;
   letter-spacing: -0.04em;
+}
+
+.custom-number__field {
+  padding: 3px 0;
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: transparent;
   color: #090909;
   border-bottom: 1px solid rgba(9, 9, 9, 0.15);
 }
 
-.custom-number[placeholder] {
+.custom-number__field::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 117%;
@@ -17,14 +24,24 @@
   color: rgba(9, 9, 9, 0.3);
 }
 
-.custom-number__field {
-  width: 100%;
-  outline: none;
-  border: none;
-  
-  background-color: transparent;
-}
-.custom-radio__icon {
+.custom-number__icon {
   position: absolute;
-  right: 0;
+  right: 2px;
+  top: -4px;
+  color: #ad8361;
+  pointer-events: none;
+}  
+
+.custom-number__field:hover,
+.custom-number__field:focus-visible {
+  border-color: #ad8361;
+}
+
+.custom-number__field[disabled] {
+  cursor: not-allowed;
+  border-color: rgba(9, 9, 9, 0.1);
+}
+
+.custom-number__field[disabled] + .custom-number__icon {
+  color: rgba(173, 131, 97, 0.5);
 }

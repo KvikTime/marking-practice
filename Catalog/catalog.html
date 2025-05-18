@@ -16,7 +16,7 @@
     <div class="container">
       <div class="header__content">
         <a href="#" class="header__logo">
-          <svg class="header__icon-logo" width="40" height="10" aria-hidden="true">
+          <svg class="header__icon-logo" width="45" height="10" aria-hidden="true">
             <use xlink:href="images/sprite.svg#icon-burger"></use>
           </svg>
         </a>
@@ -83,216 +83,384 @@
         <!-- Форма фильтрации -->
 
         <form class="catalog-form" action="#" method="get">
-          <div class="catalog-form__info">
-            <span class="catalog-form__quantity">Показано <span class="catalog-form__quantity-visible">6 </span>из <span class="catalog-form__quantity-total">9</span></span>
-            <button class="catalog-form__btn-reset" type="reset">
-              <span class="catalog-form__text-reset">
-                Сбросить
-              </span>
-              <svg class="catalog-form__icon" width="13" height="13" aria-hidden="true">
-                <use xlink:href="images/sprite.svg#icon-cross"></use>
-              </svg>
-            </button>
-          </div>
-
-          <fieldset class="catalog-form__group">
-            <legend class="catalog-form__grup-title">Валюта</legend>
-              <ul class="catalog-form__list-currency">
-                <li class="catalog-form__item-currency">
-                  <div class="custom-radio">
-                  <input class="custom-radio__input visually-hidden" checked type="radio" name="currency" id="ruble" value="ruble" aria-label="Рубль">
-                  <label class="custom-radio__label custom-radio__label--catalog" for="ruble">
-                    <span class="custom-radio__span">₽</span>
-                  </label>
-                </div>
-                </li>
-                <li class="catalog-form__item-currency">
-                  <div class="custom-radio">
-                  <input class="custom-radio__input visually-hidden" type="radio" name="currency" id="dollar" value="dollar" aria-label="Доллар">
-                  <label class="custom-radio__label custom-radio__label--catalog" for="dollar">
-                    <span class="custom-radio__span">$</span>
-                  </label>
-                </div>
-                </li>
-                <li class="catalog-form__item-currency">
-                  <div class="custom-radio">
-                  <input class="custom-radio__input visually-hidden" type="radio" name="currency" id="euro" value="euro" aria-label="Евро">
-                  <label class="custom-radio__label custom-radio__label--catalog" for="euro">
-                    <span class="custom-radio__span">&euro;</span>
-                  </label>
-                </div>
-                </li>
-              </ul>
-          </fieldset>
-
-          <div class="custom-checkbox">
-            <input class="custom-checkbox__field visually-hidden" value="hide" checked type="checkbox" name="hide-busy-ones" id="busy-onesinput" required aria-label="Скрыть забронированные номера">
-            <label class="custom-checkbox__label" for="busy-onesinput">
-              <span class="custom-checkbox__text">Скрыть забронированные</span>
-            </label>
-          </div>
-
-          <fieldset class="catalog-form__group">
-            <legend class="catalog-form__grup-title">Номер квартиры</legend>
-            <div class="custom-number">
-              <input class="custom-number__field" type="number" name="search-fieald" placeholder="Введите номер" aria-label="Поле поиска">
-              <svg class="custom-radio__icon" width="16" height="18" aria-hidden="true">
-                <use xlink:href="images/sprite.svg#icon-key"></use>
-              </svg>
+            <div class="tooltip">
+              <button class="tooltip__btn">
+                <span class="tooltip__text">Показать <span class="tooltip__number">4</span> квартиры</span>
+              </button>
             </div>
-          </fieldset>
 
-          <fieldset class="catalog-form__group">
-            <legend class="catalog-form__grup-title">Количество спален</legend>
-              <ul class="catalog-form__list-currency catalog-form__list-currency--rooms">
-                <li class="catalog-form__item-currency">
-                  <div class="custom-radio">
-                  <input class="custom-radio__input visually-hidden" type="radio" name="rooms" id="one" value="one">
-                  <label class="custom-radio__label custom-radio__label--catalog" for="one">
-                    <span class="custom-radio__span">1</span>
-                  </label>
+            <div class="catalog-form__info">
+              <span class="catalog-form__quantity">Показано <span class="catalog-form__quantity-visible">6 </span>из <span class="catalog-form__quantity-total">9</span></span>
+              <button class="catalog-form__btn-reset" type="reset">
+                <span class="catalog-form__text-reset">
+                  Сбросить
+                </span>
+                <svg class="catalog-form__icon" width="13" height="13" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#icon-cross"></use>
+                </svg>
+              </button>
+            </div>
+  
+            <fieldset class="catalog-form__group">
+              <legend class="catalog-form__group-title">Валюта</legend>
+                <ul class="catalog-form__list-currency catalog-form__group--currency">
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-radio">
+                    <input class="custom-radio__input visually-hidden" checked type="radio" name="currency" id="ruble" value="ruble" aria-label="Рубль">
+                    <label class="custom-radio__label custom-radio__label--catalog" for="ruble">
+                      <span class="custom-radio__span">₽</span>
+                    </label>
                   </div>
-                </li>
-                <li class="catalog-form__item-currency">
-                  <div class="custom-radio">
-                  <input class="custom-radio__input visually-hidden" type="radio" name="rooms" id="two" value="two">
-                  <label class="custom-radio__label custom-radio__label--catalog" for="two">
-                    <span class="custom-radio__span">2</span>
-                  </label>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-radio">
+                    <input class="custom-radio__input visually-hidden" type="radio" name="currency" id="dollar" value="dollar" aria-label="Доллар">
+                    <label class="custom-radio__label custom-radio__label--catalog" for="dollar">
+                      <span class="custom-radio__span">$</span>
+                    </label>
                   </div>
-                </li>
-                <li class="catalog-form__item-currency">
+                  </li>
+                  <li class="catalog-form__item-currency">
                   <div class="custom-radio">
-                  <input class="custom-radio__input visually-hidden" checked type="radio" name="rooms" id="three" value="three">
-                  <label class="custom-radio__label custom-radio__label--catalog" for="three">
-                    <span class="custom-radio__span">3</span>
-                  </label>
+                    <input class="custom-radio__input visually-hidden" type="radio" name="currency" id="euro" value="euro" aria-label="Евро">
+                    <label class="custom-radio__label custom-radio__label--catalog" for="euro">
+                      <span class="custom-radio__span">&euro;</span>
+                    </label>
                   </div>
-                </li>
-                <li class="catalog-form__item-currency">
-                  <div class="custom-radio">
-                  <input class="custom-radio__input visually-hidden" type="radio" name="rooms" id="four" value="four">
-                  <label class="custom-radio__label custom-radio__label--catalog" for="four">
-                    <span class="custom-radio__span">4</span>
-                  </label>
+                  </li>
+                </ul>
+            </fieldset>
+  
+            <div class="custom-checkbox">
+              <input class="custom-checkbox__field visually-hidden" value="hide" checked type="checkbox" name="hide-busy-ones" id="busy-onesinput" aria-label="Скрыть забронированные номера">
+              <label class="custom-checkbox__label" for="busy-onesinput">
+                <span class="custom-checkbox__text">Скрыть забронированные</span>
+              </label>
+            </div>
+  
+            <fieldset class="catalog-form__group">
+              <legend class="catalog-form__group-title">Номер квартиры</legend>
+              <div class="custom-number">
+                <input class="custom-number__field" type="number" name="search-fieald" placeholder="Введите номер" aria-label="Поле поиска">
+                <svg class="custom-number__icon" width="16" height="18" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#icon-key"></use>
+                </svg>
+              </div>
+            </fieldset>
+  
+            <fieldset class="catalog-form__group">
+              <legend class="catalog-form__group-title">Количество спален</legend>
+                <ul class="catalog-form__list-currency catalog-form__list-currency--rooms">
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-radio">
+                    <input class="custom-radio__input visually-hidden" type="radio" name="rooms" id="one" value="one">
+                    <label class="custom-radio__label custom-radio__label--catalog" for="one">
+                      <span class="custom-radio__span">1</span>
+                    </label>
+                    </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-radio">
+                    <input class="custom-radio__input visually-hidden" type="radio" name="rooms" id="two" value="two">
+                    <label class="custom-radio__label custom-radio__label--catalog" for="two">
+                      <span class="custom-radio__span">2</span>
+                    </label>
+                    </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-radio">
+                    <input class="custom-radio__input visually-hidden" checked type="radio" name="rooms" id="three" value="three">
+                    <label class="custom-radio__label custom-radio__label--catalog" for="three">
+                      <span class="custom-radio__span">3</span>
+                    </label>
+                    </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-radio">
+                    <input class="custom-radio__input visually-hidden" type="radio" name="rooms" id="four" value="four">
+                    <label class="custom-radio__label custom-radio__label--catalog" for="four">
+                      <span class="custom-radio__span">4</span>
+                    </label>
+                    </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-radio">
+                    <input class="custom-radio__input visually-hidden" type="radio" name="rooms" id="five" value="five">
+                    <label class="custom-radio__label custom-radio__label--catalog" for="five">
+                      <span class="custom-radio__span">5</span>
+                    </label>
+                    </div>
+                  </li>
+                </ul>
+            </fieldset>
+  
+            <fieldset class="catalog-form__group">
+              <legend class="catalog-form__group-title">Тип</legend>
+                <ul class="catalog-form__list-currency catalog-form__list-currency--type">
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-radio">
+                    <input class="custom-radio__input visually-hidden" checked type="radio" name="type" id="flat" value="flat">
+                    <label class="custom-radio__label custom-radio__label--catalog" for="flat">
+                      <span class="custom-radio__span">Квартира</span>
+                    </label>
                   </div>
-                </li>
-                <li class="catalog-form__item-currency">
-                  <div class="custom-radio">
-                  <input class="custom-radio__input visually-hidden" type="radio" name="rooms" id="five" value="five">
-                  <label class="custom-radio__label custom-radio__label--catalog" for="five">
-                    <span class="custom-radio__span">5</span>
-                  </label>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-radio">
+                    <input class="custom-radio__input visually-hidden" type="radio" name="type" id="penthouse" value="penthouse">
+                    <label class="custom-radio__label custom-radio__label--catalog" for="penthouse">
+                      <span class="custom-radio__span">Пентхаус</span>
+                    </label>
                   </div>
-                </li>
-              </ul>
-          </fieldset>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-radio">
+                    <input class="custom-radio__input visually-hidden" type="radio" name="type" id="villa" value="villa">
+                    <label class="custom-radio__label custom-radio__label--catalog" for="villa">
+                      <span class="custom-radio__span">Вилла</span>
+                    </label>
+                  </div>
+                  </li>
+                </ul>
+            </fieldset>
+  
+            <fieldset class="catalog-form__group">
+              <legend class="catalog-form__group-title">Размер</legend>
+                <ul class="catalog-form__list-currency catalog-form__list-currency--size">
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-radio">
+                    <input class="custom-radio__input visually-hidden" type="radio" name="size" id="size-S" value="size-S">
+                    <label class="custom-radio__label custom-radio__label--catalog" for="size-S">
+                      <span class="custom-radio__span">S</span>
+                    </label>
+                  </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-radio">
+                    <input class="custom-radio__input visually-hidden" checked type="radio" name="size" id="size-M" value="size-M">
+                    <label class="custom-radio__label custom-radio__label--catalog" for="size-M">
+                      <span class="custom-radio__span">M</span>
+                    </label>
+                  </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-radio">
+                    <input class="custom-radio__input visually-hidden" type="radio" name="size" id="size-L" value="size-L">
+                    <label class="custom-radio__label custom-radio__label--catalog" for="size-L">
+                      <span class="custom-radio__span">L</span>
+                    </label>
+                  </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-radio">
+                    <input class="custom-radio__input visually-hidden" type="radio" name="size" id="size-XL" value="size-XL">
+                    <label class="custom-radio__label custom-radio__label--catalog" for="size-XL">
+                      <span class="custom-radio__span">XL</span>
+                    </label>
+                  </div>
+                  </li>
+                </ul>
+            </fieldset>
+  
+            <fieldset class="catalog-form__group">
+              <legend class="catalog-form__group-title">Этаж</legend>
+                <ul class="catalog-form__list-currency catalog-form__list-currency--floor">
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-radio">
+                    <input class="custom-radio__input visually-hidden" type="radio" name="floor" id="one-floor" value="one-floor">
+                    <label class="custom-radio__label custom-radio__label--catalog" for="one-floor">
+                      <span class="custom-radio__span">1</span>
+                    </label>
+                  </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-radio">
+                    <input class="custom-radio__input visually-hidden" type="radio" name="floor" id="two-floor" value="two-floor">
+                    <label class="custom-radio__label custom-radio__label--catalog" for="two-floor">
+                      <span class="custom-radio__span">2</span>
+                    </label>
+                  </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-radio">
+                    <input class="custom-radio__input visually-hidden" type="radio" name="floor" id="three-floor" value="three-floor">
+                    <label class="custom-radio__label custom-radio__label--catalog" for="three-floor">
+                      <span class="custom-radio__span">3</span>
+                    </label>
+                  </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-radio">
+                    <input class="custom-radio__input visually-hidden" type="radio" name="floor" id="four-floor" value="four-floor">
+                    <label class="custom-radio__label custom-radio__label--catalog" for="four-floor">
+                      <span class="custom-radio__span">4</span>
+                    </label>
+                  </div>
+                  </li>
+                </ul>
+            </fieldset>
+  
+            <fieldset class="catalog-form__group">
+              <legend class="catalog-form__group-title catalog-form__group-title--optional">Преимущества</legend>
+                <ul class="catalog-form__list-currency catalog-form__list-currency--column">
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-checkbox">
+                      <input class="custom-checkbox__field visually-hidden" value="fireplace-check" checked type="checkbox" name="fireplace" id="fireplace" aria-label="Наличие камина">
+                      <label class="custom-checkbox__label" for="fireplace">
+                        <span class="custom-checkbox__text">Камин</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-checkbox">
+                      <input class="custom-checkbox__field visually-hidden" value="two-storied-check" disabled type="checkbox" name="two-storied" id="two-storied" aria-label="Двухэтажная">
+                      <label class="custom-checkbox__label" for="two-storied">
+                        <span class="custom-checkbox__text">Двухэтажная</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-checkbox">
+                      <input class="custom-checkbox__field visually-hidden" value="pool-check" type="checkbox" name="pool" id="pool" aria-label="Наличие бассейна">
+                      <label class="custom-checkbox__label" for="pool">
+                        <span class="custom-checkbox__text">Бассейн</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-checkbox">
+                      <input class="custom-checkbox__field visually-hidden" value="three-storey-check" type="checkbox" name="three-storey" id="three-storey" aria-label="Трехэтажная">
+                      <label class="custom-checkbox__label" for="three-storey">
+                        <span class="custom-checkbox__text">Трехэтажная</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-checkbox">
+                      <input class="custom-checkbox__field visually-hidden" value="terrace-check" type="checkbox" name="terrace" id="terrace" aria-label="Наличие террассы">
+                      <label class="custom-checkbox__label" for="terrace">
+                        <span class="custom-checkbox__text">Терраса</span>
+                      </label>
+                    </div>
+                  </li>
+                </ul>
+            </fieldset>
+  
+            <fieldset class="catalog-form__group">
+              <legend class="catalog-form__group-title catalog-form__group-title--optional">Балконы</legend>
+                <ul class="catalog-form__list-currency catalog-form__list-currency--column">
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-checkbox">
+                      <input class="custom-checkbox__field visually-hidden" value="loggia-check" type="checkbox" name="loggia" id="loggia" aria-label="Наличие лоджии">
+                      <label class="custom-checkbox__label" for="loggia">
+                        <span class="custom-checkbox__text">Лоджия</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-checkbox">
+                      <input class="custom-checkbox__field visually-hidden" value="balcony-check" type="checkbox" name="balcony" id="balcony" aria-label="Балкон">
+                      <label class="custom-checkbox__label" for="balcony">
+                        <span class="custom-checkbox__text">Балкон</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-checkbox">
+                      <input class="custom-checkbox__field visually-hidden" value="no-balcony-check" type="checkbox" name="no-balcony" id="no-balcony" aria-label="Без балкона">
+                      <label class="custom-checkbox__label" for="no-balcony">
+                        <span class="custom-checkbox__text">Нет балкона</span>
+                      </label>
+                    </div>
+                  </li>
+                </ul>
+            </fieldset>
+  
+            <fieldset class="catalog-form__group">
+              <legend class="catalog-form__group-title catalog-form__group-title--optional">Планировка</legend>
+                <ul class="catalog-form__list-currency catalog-form__list-currency--column">
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-checkbox">
+                      <input class="custom-checkbox__field visually-hidden" value="linear-check" type="checkbox" name="linear" id="linear" aria-label="Линейная">
+                      <label class="custom-checkbox__label" for="linear">
+                        <span class="custom-checkbox__text">Линейная</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-checkbox">
+                      <input class="custom-checkbox__field visually-hidden" value="unveiled-check" type="checkbox" name="unveiled" id="unveiled" aria-label="Распашная">
+                      <label class="custom-checkbox__label" for="unveiled">
+                        <span class="custom-checkbox__text">Распашная</span>
+                      </label>
+                    </div>
+                  </li>
+                </ul>
+            </fieldset>
+  
+            <fieldset class="catalog-form__group">
+              <legend class="catalog-form__group-title catalog-form__group-title--optional">Ориентация по сторонам света</legend>
+                <ul class="catalog-form__list-currency catalog-form__list-currency--column">
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-checkbox">
+                      <input class="custom-checkbox__field visually-hidden" value="northeast-check" disabled type="checkbox" name="northeast" id="northeast" aria-label="Северо-восток">
+                      <label class="custom-checkbox__label" for="northeast">
+                        <span class="custom-checkbox__text">Северо-восток</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-checkbox">
+                      <input class="custom-checkbox__field visually-hidden" value="east-check" type="checkbox" name="east" id="east" aria-label="Восток">
+                      <label class="custom-checkbox__label" for="east">
+                        <span class="custom-checkbox__text">Восток</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-checkbox">
+                      <input class="custom-checkbox__field visually-hidden" value="south-east-check" type="checkbox" name="south-east" id="south-east" aria-label="Юго-восток">
+                      <label class="custom-checkbox__label" for="south-east">
+                        <span class="custom-checkbox__text">Юго-восток</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-checkbox">
+                      <input class="custom-checkbox__field visually-hidden" value="south-check" type="checkbox" name="south" id="south" aria-label="Юг">
+                      <label class="custom-checkbox__label" for="south">
+                        <span class="custom-checkbox__text">Юг</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-checkbox">
+                      <input class="custom-checkbox__field visually-hidden" value="southwest-check" type="checkbox" name="southwest" id="southwest" aria-label="Юго-запад">
+                      <label class="custom-checkbox__label" for="southwest">
+                        <span class="custom-checkbox__text">Юго-запад</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-checkbox">
+                      <input class="custom-checkbox__field visually-hidden" value="west-check" disabled type="checkbox" name="west" id="west" aria-label="Запад">
+                      <label class="custom-checkbox__label" for="west">
+                        <span class="custom-checkbox__text">Запад</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li class="catalog-form__item-currency">
+                    <div class="custom-checkbox">
+                      <input class="custom-checkbox__field visually-hidden" value="northwest-check" type="checkbox" name="northwest" id="northwest" aria-label="Северо-запад">
+                      <label class="custom-checkbox__label" for="northwest">
+                        <span class="custom-checkbox__text">Северо-запад</span>
+                      </label>
+                    </div>
+                  </li>
+                </ul>
+            </fieldset>
 
-          <fieldset class="catalog-form__group">
-            <legend class="catalog-form__grup-title">Тип</legend>
-              <ul class="catalog-form__list-currency catalog-form__list-currency--type">
-                <li class="catalog-form__item-currency">
-                  <div class="custom-radio">
-                  <input class="custom-radio__input visually-hidden" checked type="radio" name="type" id="flat" value="flat">
-                  <label class="custom-radio__label custom-radio__label--catalog" for="flat">
-                    <span class="custom-radio__span">Квартира</span>
-                  </label>
-                </div>
-                </li>
-                <li class="catalog-form__item-currency">
-                  <div class="custom-radio">
-                  <input class="custom-radio__input visually-hidden" type="radio" name="type" id="penthouse" value="penthouse">
-                  <label class="custom-radio__label custom-radio__label--catalog" for="penthouse">
-                    <span class="custom-radio__span">Пентхаус</span>
-                  </label>
-                </div>
-                </li>
-                <li class="catalog-form__item-currency">
-                  <div class="custom-radio">
-                  <input class="custom-radio__input visually-hidden" type="radio" name="type" id="villa" value="villa">
-                  <label class="custom-radio__label custom-radio__label--catalog" for="villa">
-                    <span class="custom-radio__span">Вилла</span>
-                  </label>
-                </div>
-                </li>
-              </ul>
-          </fieldset>
-
-          <fieldset class="catalog-form__group">
-            <legend class="catalog-form__grup-title">Размер</legend>
-              <ul class="catalog-form__list-currency catalog-form__list-currency--size">
-                <li class="catalog-form__item-currency">
-                  <div class="custom-radio">
-                  <input class="custom-radio__input visually-hidden" type="radio" name="size" id="size-S" value="size-S">
-                  <label class="custom-radio__label custom-radio__label--catalog" for="size-S">
-                    <span class="custom-radio__span">S</span>
-                  </label>
-                </div>
-                </li>
-                <li class="catalog-form__item-currency">
-                  <div class="custom-radio">
-                  <input class="custom-radio__input visually-hidden" checked type="radio" name="size" id="size-M" value="size-M">
-                  <label class="custom-radio__label custom-radio__label--catalog" for="size-M">
-                    <span class="custom-radio__span">M</span>
-                  </label>
-                </div>
-                </li>
-                <li class="catalog-form__item-currency">
-                  <div class="custom-radio">
-                  <input class="custom-radio__input visually-hidden" type="radio" name="size" id="size-L" value="size-L">
-                  <label class="custom-radio__label custom-radio__label--catalog" for="size-L">
-                    <span class="custom-radio__span">L</span>
-                  </label>
-                </div>
-                </li>
-                <li class="catalog-form__item-currency">
-                  <div class="custom-radio">
-                  <input class="custom-radio__input visually-hidden" type="radio" name="size" id="size-XL" value="size-XL">
-                  <label class="custom-radio__label custom-radio__label--catalog" for="size-XL">
-                    <span class="custom-radio__span">XL</span>
-                  </label>
-                </div>
-                </li>
-              </ul>
-          </fieldset>
-
-          <fieldset class="catalog-form__group">
-            <legend class="catalog-form__grup-title">Этаж</legend>
-              <ul class="catalog-form__list-currency catalog-form__list-currency--floor">
-                <li class="catalog-form__item-currency">
-                  <div class="custom-radio">
-                  <input class="custom-radio__input visually-hidden" type="radio" name="floor" id="one-floor" value="one-floor">
-                  <label class="custom-radio__label custom-radio__label--catalog" for="one-floor">
-                    <span class="custom-radio__span">1</span>
-                  </label>
-                </div>
-                </li>
-                <li class="catalog-form__item-currency">
-                  <div class="custom-radio">
-                  <input class="custom-radio__input visually-hidden" type="radio" name="floor" id="two-floor" value="two-floor">
-                  <label class="custom-radio__label custom-radio__label--catalog" for="two-floor">
-                    <span class="custom-radio__span">2</span>
-                  </label>
-                </div>
-                </li>
-                <li class="catalog-form__item-currency">
-                  <div class="custom-radio">
-                  <input class="custom-radio__input visually-hidden" type="radio" name="floor" id="three-floor" value="three-floor">
-                  <label class="custom-radio__label custom-radio__label--catalog" for="three-floor">
-                    <span class="custom-radio__span">3</span>
-                  </label>
-                </div>
-                </li>
-                <li class="catalog-form__item-currency">
-                  <div class="custom-radio">
-                  <input class="custom-radio__input visually-hidden" type="radio" name="floor" id="four-floor" value="four-floor">
-                  <label class="custom-radio__label custom-radio__label--catalog" for="four-floor">
-                    <span class="custom-radio__span">4</span>
-                  </label>
-                </div>
-                </li>
-              </ul>
-          </fieldset>
+          <button class="btn btn--filter" type="submit">Применить фильтр</button>
         </form>
 
         <!-- Список с карточками -->
@@ -340,6 +508,13 @@
                   <use xlink:href="images/sprite.svg#icon-like"></use>
                 </svg>
               </button>
+
+                <div class="catalog-card__circle">
+                  <svg class="catalog-card__visual-icon" width="16" height="16" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#icon-visual"></use>
+                  </svg>
+                </div>
+
             </div>
           </li>
 
@@ -386,6 +561,13 @@
                   <use xlink:href="images/sprite.svg#icon-like"></use>
                 </svg>
               </button>
+
+                <div class="catalog-card__circle">
+                  <svg class="catalog-card__visual-icon" width="16" height="16" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#icon-visual"></use>
+                  </svg>
+                </div>
+
             </div>
           </li>
 
@@ -432,6 +614,13 @@
                   <use xlink:href="images/sprite.svg#icon-like"></use>
                 </svg>
               </button>
+
+                <div class="catalog-card__circle">
+                  <svg class="catalog-card__visual-icon" width="16" height="16" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#icon-visual"></use>
+                  </svg>
+                </div>
+
             </div>
           </li>
 
@@ -478,6 +667,13 @@
                   <use xlink:href="images/sprite.svg#icon-like"></use>
                 </svg>
               </button>
+
+                <div class="catalog-card__circle">
+                  <svg class="catalog-card__visual-icon" width="16" height="16" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#icon-visual"></use>
+                  </svg>
+                </div>
+
             </div>
           </li>
 
@@ -524,6 +720,13 @@
                   <use xlink:href="images/sprite.svg#icon-like"></use>
                 </svg>
               </button>
+
+                <div class="catalog-card__circle">
+                  <svg class="catalog-card__visual-icon" width="16" height="16" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#icon-visual"></use>
+                  </svg>
+                </div>
+
             </div>
           </li>
 
@@ -570,6 +773,13 @@
                   <use xlink:href="images/sprite.svg#icon-like"></use>
                 </svg>
               </button>
+
+                <div class="catalog-card__circle">
+                  <svg class="catalog-card__visual-icon" width="16" height="16" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#icon-visual"></use>
+                  </svg>
+                </div>
+
             </div>
           </li>
         </ul>

@@ -16,4 +16,5 @@
 @import "blocks/catalog-list.css";
 @import "blocks/catalog-card.css";
 @import "blocks/parameter-card.css";
-
+@import "blocks/btn.css";
+@import "blocks/tooltip.css";

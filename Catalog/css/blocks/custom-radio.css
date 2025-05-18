@@ -10,13 +10,14 @@
 }
 
 .custom-radio__label {
-  padding: 31px 20px;
+  padding: 29px 20px;
   gap: 4px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #f3f3f3;
+  user-select: none;
 }
 
 .custom-radio__icon {
@@ -33,27 +34,46 @@
 
 .custom-radio__label--catalog {
   position: relative;
-  padding: 4px;
-}
-
-.custom-radio__label--catalog::before {
-  position: absolute;
-  content: "";
-  top: -1px;
-  right: 0;
-  bottom: 0;
-  left: -1px;
-  border: 1px solid #ad8361;
+  padding: 4.3px 4px;
+  outline: 1px solid #ad8361;
 }
 
 .custom-radio__label--catalog .custom-radio__span {
   color: #ad8361;
 }
 
-.custom-radio__input:checked+.custom-radio__label--catalog {
+.custom-radio__input:checked + .custom-radio__label--catalog {
   background: #ad8361;
 }
 
-.custom-radio__input:checked+.custom-radio__label--catalog .custom-radio__span {
+.custom-radio__input:checked + .custom-radio__label--catalog .custom-radio__span {
   color: #fff;
 }
+
+.custom-radio__label--catalog:hover .custom-radio__span{
+  color: #090909;
+}
+
+.custom-radio__input:focus-visible + .custom-radio__label--catalog {
+  background: #efede7;
+}
+
+.custom-radio__input:focus-visible + .custom-radio__label--catalog .custom-radio__span{
+  color: #ad8361;
+}
+
+.custom-radio__input[disabled] + .custom-radio__label--catalog {
+  background: rgba(243, 243, 243, 0.5);
+  cursor: not-allowed;
+}
+
+.custom-radio__input[disabled] + .custom-radio__label--catalog {
+  outline-color: rgba(173, 131, 97, 0.5);
+}
+
+
+.custom-radio__input[disabled] + .custom-radio__label--catalog .custom-radio__span {
+  color: rgba(173, 131, 97, 0.5);
+}
+
+

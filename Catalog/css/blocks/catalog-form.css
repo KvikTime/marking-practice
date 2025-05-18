@@ -1,43 +1,44 @@
 .catalog-form {
+  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 24px;
-
+  gap: 25px;
 }
 
 .catalog-form__info {
   display: flex;
   justify-content: space-between;
-  text-align: center;
-    gap: 20px;
-}
-.catalog-form__quantity {
-  font-weight: 300;
-font-size: 14px;
-line-height: 129%;
-letter-spacing: -0.04em;
-color: #090909;
-}
-.catalog-form__quantity-visible {
-}
-.catalog-form__quantity-total {
-}
-.catalog-form__btn-reset {
-  display: flex;
   align-items: center;
-  gap: 11px;
-
-
+  gap: 20px;
 }
-.catalog-form__text-reset {
+
+.catalog-form__quantity {
   font-weight: 300;
   font-size: 14px;
   line-height: 129%;
   letter-spacing: -0.04em;
   color: #090909;
+}
+
+.catalog-form__btn-reset {
+  padding: 2px 6px;
+  display: flex;
+  align-items: center;
+  color: #090909;
+  gap: 11px;
+}
+
+.catalog-form__text-reset {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.04em;
+  color: inherit;
   text-transform: uppercase;
 }
-.catalog-form__icon {
+
+.catalog-form__btn-reset:hover{
+  color: #ad8361;
 }
 
 .catalog-form__group {
@@ -45,17 +46,17 @@ color: #090909;
   flex-direction: column;
 }
 
-.catalog-form__grup-title{
-  margin-bottom: 16px;
+.catalog-form__group-title {
+  margin-bottom: 17px;
   font-weight: 300;
-font-size: 12px;
-line-height: 117%;
-letter-spacing: -0.04em;
-color: #090909;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: -0.04em;
+  color: #090909;
 }
 
-.catalog-form__inner{
-
+.catalog-form__group-title--optional {
+  margin-bottom: 14.5px;
 }
 
 .catalog-form__list-currency {
@@ -65,27 +66,26 @@ color: #090909;
 
 .catalog-form__item-currency {
   width: 100%;
-
-  /* border-right: none; */
-}
-
-.catalog-form__item-currency:last-child {
-  /* border-right: 1px solid #ad8361; */
 }
 
 .catalog-form__list-currency--rooms {
   grid-template-columns: repeat(5, 1fr);
 }
 
-.catalog-form__list-currency--type{
+.catalog-form__list-currency--type {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.catalog-form__list-currency--type .catalog-form__item-currency:nth-child(3n){
+.catalog-form__list-currency--type .catalog-form__item-currency:nth-child(3n) {
   grid-column: span 2;
 }
 
 .catalog-form__list-currency--size,
 .catalog-form__list-currency--floor {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.catalog-form__list-currency--column {
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 16px;
 }
